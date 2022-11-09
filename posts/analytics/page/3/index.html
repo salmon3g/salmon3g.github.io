@@ -1,0 +1,309 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>分析 | 往东行</title>
+<meta name="description" content="数据分析，产品分析，运营分析等">
+<meta name="author" content="wangdongxing">
+<link rel="canonical" href="http://wangdongxing.com/posts/analytics/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.a14448c07cddf5a1fec9468e66fa046c84c03fb15b3b7b26e79bd43b6361e01a.css" integrity="sha256-oURIwHzd9aH&#43;yUaOZvoEbITAP7FbO3sm55vUO2Nh4Bo=" rel="preload stylesheet" as="style">
+<link rel="icon" href="http://wangdongxing.com/img/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://wangdongxing.com/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://wangdongxing.com/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://wangdongxing.com/apple-touch-icon.png">
+<link rel="mask-icon" href="http://wangdongxing.com/apple-touch-icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="http://wangdongxing.com/posts/analytics/index.xml">
+<noscript>
+  <style>#theme-toggle,.top-link{display:none;}</style>
+  <style>
+      @media (prefers-color-scheme: dark){
+        :root {
+          --theme: rgb(29, 30, 32);
+          --entry: rgb(46, 46, 51);
+          --primary: rgb(218, 218, 219);
+          --secondary: rgb(155, 156, 157);
+          --tertiary: rgb(65, 66, 68);
+          --content: rgb(196, 196, 197);
+          --hljs-bg: rgb(46, 46, 51);
+          --code-bg: rgb(55, 56, 62);
+          --border: rgb(51, 51, 51);
+        }
+        .list {background: var(--theme);}
+        .list:not(.dark)::-webkit-scrollbar-track {background: 0 0;}
+        .list:not(.dark)::-webkit-scrollbar-thumb { border-color: var(--theme);}
+      }
+  </style>
+</noscript>
+<meta property="og:title" content="分析" />
+<meta property="og:description" content="数据分析，产品分析，运营分析等" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="http://wangdongxing.com/posts/analytics/" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="分析"/>
+<meta name="twitter:description" content="数据分析，产品分析，运营分析等"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "posts",
+      "item": "http://wangdongxing.com/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "分析",
+      "item": "http://wangdongxing.com/posts/analytics/"
+    }
+  ]
+}
+</script>
+</head>
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="http://wangdongxing.com" accesskey="h" title="往东行 (Alt + H)">往东行</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="http://wangdongxing.com/categories/pm/" title="产品">
+                    <span>产品</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://wangdongxing.com/categories/reading/" title="阅读">
+                    <span>阅读</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://wangdongxing.com/categories/analytics/" title="分析">
+                    <span>分析</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://wangdongxing.com/categories/life/" title="生活">
+                    <span>生活</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://wangdongxing.com/archives/" title="归类">
+                    <span>归类</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://wangdongxing.com/tags/" title="标签">
+                    <span>标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://wangdongxing.com/search/" title="搜索">
+                    <span>搜索</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://wangdongxing.com/about/" title="关于">
+                    <span>关于</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    分析
+  </h1>
+  <div class="post-description">
+    数据分析，产品分析，运营分析等
+  </div>
+</header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>session是什么，与cookie的关系
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>session 的中文译名叫做“会话”，原意指有始有终的一系列动作消息，比如我们从拨通电话到挂掉电话的一系列过程可以称之为一个 session 。session 是表示一个持续连接的状态，一般指访客打开浏览器浏览一个网站开始到关闭浏览器（即浏览器的进程从开启到结束）。session 更多的是表示一个访问的过程，是网站分析的访问度量。
+session 可以追踪用户在网站上的活动，比如我们网上购物，我们是先将商品放入购物车，然后再一起支付。在我们整个过程中购物车一直扮演着临时存贮被选商品的角色，这就是 session 的作用，它可以用于用户身份认证，程序状态记录，页面之间参数传递等。session 的实现中采用 cookie 技术，session 会在客户端保存一个包含 session id（session 编号）的 cookie；在服务器端保存其他 session 变量，比如 session name 等等。当用户请求服务器时也把session id 一起发送到服务器，通过 session id 提取所保存在服务器端的变量，就能识别用户是谁了。
+session 失效时间分两方面：浏览器端和服务端。对于浏览器端而言，session 与访问进程直接相关，当浏览器被关闭时，session 也随之消失；而服务器端的 session 失效时间一般是人为设置的，目的是能定期地释放内存空间，减小服务器压力，一般的设置为当会话处于非活动状态达 20 或 30 分钟时清除该 session（多数网站分析工具默认时间均为 30 分钟），所以浏览器端和服务端的 session 并非同时消失的，session 的中断也并不一定意味着用户一定离开了该网站。
+session 和 cookie 的关系 session 通过 cookie ，在客户端保存 session id ，而将用户的其他会话消息保存在服务端的 session 对象中。session 和 cookie 的最大区别在于 session 是保存在服务端的内存里面，而 cookie 保存于浏览器或客户端文件里面；session 是基于访问的进程，记录了一个访问的开始到结束，当浏览器或进程关闭之后，session 也就“消失”了，而 cookie 更多地被用于标识用户，它可以是长久的，用于用户跟踪和识别唯一用户。</p>
+  </div>
+  <footer class="entry-footer"><span class="more-meta">  </span><span title='2011-11-23 08:21:00 +0000 UTC'>2011-11-23</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to session是什么，与cookie的关系" href="http://wangdongxing.com/posts/analytics/session/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>网络广告收费模式
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>CPA (Cost-per-Action) 每次行动的费用，即根据每个访问者对网络广告所采取的行动收费的定价模式。对于用户行动有特别的定义，包括形成一次交易、获得一个注册用户、或者对网络广告的一次点击等。
+CPC (Cost-per-click) 每次点击的费用。根据广告被点击的次数收费。如关键词广告一般采用这种定价模式。
+CPM（Cost per Thousand Impressions） 每千次印象费用。广告条每显示1000次（印象）的费用。CPM是最常用的网络广告定价模式之一。
+CPS（Cost-Per-Sale） 按照销售额付费，也就是你卖出了这个商品才会付费。比如国内的淘宝客、当当联盟、京东联盟。
+CPO (Cost-per-Order) 也称为Cost-per-Transaction，即根据每个订单/每次交易来收费的方式。
+CPT（Cost Per Time） 以时间计费的广告，比如阿里妈妈的按周计费广告，以及大型网站的包月广告。
+CPP广（Cost Per Purchase） 类似CPM广告，也是弹窗广告，但需要注册成功后才会付费。
+CPV 富媒体（Rich Media）广告，有的广告联盟把它称为CPF广告。是运用了声音、图像、文字等多媒体的广告。比如在很多网站右下角看到的假冒QQ中奖小窗口。
+PPC（Pay-per-Click） 是根据点击广告或者电子邮件信息的用户数量来付费的一种网络广告定价模式。
+PPL（Pay-per-Lead） 根据每次通过网络广告产生的引导付费的定价模式。例如，广告客户为访问者点击广告完成了在线表单而向广告服务商付费。这种模式常用于网络会员制营销模式中为联盟网站制定的佣金模式。
+PPS（Pay-per-Sale） 根据网络广告所产生的直接销售数量而付费的一种定价模式 。
+CPTM (Cost per Targeted Thousand Impressions) 经过定位的用户（如根据人口统计信息定位）的千次印象费用。CPTM与CPM的区别在于，CPM是所有用户的印象数，而CPTM只是经过定位的用户的印象数。
+—— 部分知识来自《网络营销基础与实践》</p>
+  </div>
+  <footer class="entry-footer"><span class="more-meta">  </span><span title='2011-03-02 08:59:00 +0000 UTC'>2011-03-02</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to 网络广告收费模式" href="http://wangdongxing.com/posts/analytics/advertising-model/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Google Analytics 代码部署
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Google Analytics 早在 2009 年就推出异步加载的方式了，不但保证了网页能更快的加载跟踪代码，对网站打开速度也不会产生影响了，下面是常见的部署 GATC（Google Analytics 监测代码）方式，可根据实际情况进行部署。
+方式一： 将 GATC 放到网站所有要监测的网页的 标签前。
+&lt;script type=&#34;text/javascript&#34;&gt;var _gaq = _gaq || [];_gaq.push([&#39;_setAccount&#39;, &#39;UA-XXXXX-X&#39;]);_gaq.push([&#39;_trackPageview&#39;]);(function() {var ga = document.createElement(&#39;script&#39;); ga.type = &#39;text/javascript&#39;; ga.async = true;ga.src = (&#39;https:&#39; == document.location.protocol ? &#39;https://ssl&#39; : &#39;http://www&#39;) &#43; &#39;.google-analytics.com/ga.js&#39;;var s = document.getElementsByTagName(&#39;script&#39;)[0]; s.parentNode.insertBefore(ga, s);})();&lt;/script&gt;方式二： 将 ga.js 放到底部。
+&lt;html&gt;&lt;head&gt;&lt;script type=&#34;text/javascript&#34;&gt;var _gaq = _gaq || [];_gaq.push([&#39;_setAccount&#39;, &#39;UA-XXXXX-X&#39;]);_gaq.push([&#39;_trackPageview&#39;]);&lt;/script&gt;&lt;/head&gt;&lt;body&gt;&lt;p&gt;Page Content&lt;/p&gt;&lt;p&gt;……&lt;/p&gt;&lt;script type=&#34;text/javascript&#34;&gt; (function() {var ga = document.createElement(&#39;script&#39;); ga.type = &#39;text/javascript&#39;; ga.async = true;ga.src = (&#39;https:&#39; == document.location.protocol ? &#39;https://ssl&#39; : &#39;http://www&#39;) &#43; &#39;.google-analytics.com/ga.js&#39;;var s = document.getElementsByTagName(&#39;script&#39;)[0]; s.parentNode.insertBefore(ga, s);})();&lt;/script&gt;&lt;/body&gt;&lt;/html&gt;方式三： 将 GATC 放到单独的 js 文件中，如下。
+var _gaq = _gaq || [];_gaq....</p>
+  </div>
+  <footer class="entry-footer"><span class="more-meta">  </span><span title='2011-03-01 07:59:00 +0000 UTC'>2011-03-01</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Google Analytics 代码部署" href="http://wangdongxing.com/posts/analytics/ga/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>htaccess实现URl标准化
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>URL标准化在SEO中是一个比较重要的环节，同时存在不同的网址版本，不但可能造成复制，还不能正确的集中权重。目前大多数网站，绑定域名都有带WWW和不带两个版本，甚至很多网站同时绑定多个域名。经过处理（跳转、CNAME……），对于访问者来说可能没有任何影响，看到的都是同样的内容；但对于搜索引擎，就无法确定哪一个网址是真正的主页。
+可控因素，网站内容链接应该保持同一个版本，比如整站中，返回首页的地址为固定的一个版本。但还有一个不可控的因素，就是别人链到你的网站，所使用的网址。很多自发链接或交换链接时，别人可能会省略掉WWW，或采用绑定的另一域名。外界因素不可控，我们可以从网站内部来控制。利用 Apache 的 .htaccess，使用301重定向，规范网址。
+新建一个空文件，文件名 .htaccess（如果网站根目录有就不用了），填入重定向规则后，上传到网站根目录。用301将不带 WWW 的域名重定向。
+rewriteEngine onrewriteCond %{http_host} ^example.com [NC]rewriteRule ^(.*)$ http://www.example.com/$1 [R=301,L]用301将绑定的其他域名重定向到主域名
+RewriteEngine onRewriteCond %{HTTP_HOST} ^其他域名.com$ [OR]RewriteCond %{HTTP_HOST} ^www.其他域名.com$RewriteRule ^(.*)$ http://www.主域名.com/$1 [R=301,L]当然，也可以再扩展一下，将index.html、index.php等也重定向一下：
+RewriteEngine onRewriteCond %{THE_REQUEST} ^[A-Z]{3,9} /index.php HTTP/RewriteRule ^index.php$ http://www.example.com/ [R=301,L]检查工具： 点击使用URL标准化监测工具</p>
+  </div>
+  <footer class="entry-footer"><span class="more-meta">  </span><span title='2010-12-06 09:06:00 +0000 UTC'>2010-12-06</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to htaccess实现URl标准化" href="http://wangdongxing.com/posts/analytics/url/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="prev" href="http://wangdongxing.com/posts/analytics/page/2/">
+      «&nbsp;Prev&nbsp;
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer"> 
+    <span>Copyright &copy; 2009 - 2022 <a href="http://wangdongxing.com">往东行</a></span>
+    <span><a href="http://wangdongxing.com/index.xml">Sitemap</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+</html>
