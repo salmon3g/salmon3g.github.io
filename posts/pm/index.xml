@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>产品 on 往东行</title>
-    <link>http://wangdongxing.com/posts/pm/</link>
+    <link>https://salmon4g.github.io/posts/pm/</link>
     <description>Recent content in 产品 on 往东行</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 19 Mar 2020 14:08:00 +0000</lastBuildDate><atom:link href="http://wangdongxing.com/posts/pm/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Mar 2020 14:08:00 +0000</lastBuildDate><atom:link href="https://salmon4g.github.io/posts/pm/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>优秀的商业智能和数据可视化产品：Power BI</title>
-      <link>http://wangdongxing.com/posts/pm/powerbi/</link>
+      <link>https://salmon4g.github.io/posts/pm/powerbi/</link>
       <pubDate>Thu, 19 Mar 2020 14:08:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/pm/powerbi/</guid>
+      <guid>https://salmon4g.github.io/posts/pm/powerbi/</guid>
       <description>Power BI 是 Microsoft 出品的一套商业智能体系（包括软件，工具，服务等），可用来构建从个人到中大型企业组织的商业智能平台，便于产品、运营、数据分析师等用户探索和分析数据。
 和 Tableau 一样，Power BI 也支持非常丰富的数据源，接入数据源后也可以快速实现数据可视化及分析探索；同时，Power BI 也在 Gartner 分析和商业智能魔力象限中被评为领导者，BI(商业智能)和可视化方面十分优秀。
 PowerBI运行逻辑 PowerBI 整体的运行逻辑是先把数据源按指标场景「筛选」数据、生成「度量值」后，把度量值作为生成图表的「上下文」及依据。
@@ -54,10 +54,10 @@ PowerBI运行逻辑 PowerBI 整体的运行逻辑是先把数据源按指标场�
     
     <item>
       <title>企业级开源可视化报表平台：Superset</title>
-      <link>http://wangdongxing.com/posts/pm/superset/</link>
+      <link>https://salmon4g.github.io/posts/pm/superset/</link>
       <pubDate>Sat, 14 Mar 2020 13:46:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/pm/superset/</guid>
+      <guid>https://salmon4g.github.io/posts/pm/superset/</guid>
       <description>Apache Superset 是一款由 Python 语言为主开发的企业级数据探索分析以及可视化的报表平台，由 Airbnb 开源，后面进入 Apache 软件基金会孵化。支持丰富的数据源和可视化图表样式，国内外已经有很多知名企业在使用了，如Airbnb、Netflix、Dropbox、Twitter、去哪儿、B站、豆瓣、腾讯音乐等。
 特征 开源，轻量级、高可用，使用维护简单且便于二次开发 可视化方面非常出色，报表、看板等表现力很好 操作便捷，拖拉拽简单操作便可无代码生成可视化图表 图表类型丰富，有时间序列、组合图、分布图、关系图、GEO地理位置、词汇云、等40多种图表类型 支持数据源丰富，包括Clickhouse、Presto、Durid、Kylin、Impala、Hive、MySQL、Oracle等30多种数据源 先进的SQL IDE，底层配合Clickhouse，自助SQL跑数神器 支持灵活添加自定义可视化插件的能力 实操 我请我同事帮忙写了一份入门教程，具体操作如下：
 1、添加database 2、添加Table 3、SQL查询(生成视图表) 4、绘图 5、设计Dashboad 6、共享Dashboard
@@ -68,10 +68,10 @@ PowerBI运行逻辑 PowerBI 整体的运行逻辑是先把数据源按指标场�
     
     <item>
       <title>产品经理常用的工具</title>
-      <link>http://wangdongxing.com/posts/pm/pm-tools/</link>
+      <link>https://salmon4g.github.io/posts/pm/pm-tools/</link>
       <pubDate>Sat, 10 Aug 2019 13:54:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/pm/pm-tools/</guid>
+      <guid>https://salmon4g.github.io/posts/pm/pm-tools/</guid>
       <description>工作这么多年，有个可能不太好的习惯：喜欢看别人在使用什么软件。如果对方使用的软件好用，我会安装并学习使用；如果对方使用的软件并不那么好用，我会随手推荐一个我用着还不错的软件。正所谓，磨刀不误砍柴工；工欲善其事，必先利其器。
 总结了这 9 大类别、30 多个产品经理常用的工具。我个人感觉这些工具还不错，希望你也喜欢；以下也只是一家之言，欢迎交流~
 一、思维导图工具 思维导图，又叫心智导图、脑图，是表达发散性思维的有效图形思维工具 ，它简单却又很有效，是一种实用性的思维工具。应用于记忆、学习、思考等的思维“地图”，有利于人脑的扩散思维的展开。
@@ -88,10 +88,10 @@ Tableau，连续 6 年在 Gartner 分析和商业智能魔力象限中被评为�
     
     <item>
       <title>商业智能和数据可视化领导者：Tableau</title>
-      <link>http://wangdongxing.com/posts/pm/tableau/</link>
+      <link>https://salmon4g.github.io/posts/pm/tableau/</link>
       <pubDate>Mon, 17 Dec 2018 08:33:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/pm/tableau/</guid>
+      <guid>https://salmon4g.github.io/posts/pm/tableau/</guid>
       <description>Tableau 成立于 2003 年，是斯坦福大学一个计算机科学项目的成果，该项目旨在改善分析流程并让人们能够通过可视化更轻松地使用数据。Tableau 连续 6 年在 Gartner 分析和商业智能魔力象限中被评为领导者，BI(商业智能)和可视化方面十分优秀。
 下面是我在公司(滴滴)负责 Tableau 平台的一些信息：
 产品：1人(我)，负责平台二次开发(权限系统打通、审批流程设计)，日常运营(问题答疑、权限管控、使用手册撰写、定期培训等) 开发：1-2人，负责定制开发，数仓维护、系统健康度管控 业务部门：整个滴滴公司10+业务部门使用 人数：日均用户数1800+ 使用产品：Tableau Desktop + Tableau Server，永久授权版 费用：几百万/年 Tableau主要产品线
@@ -119,10 +119,10 @@ Tableau看板的设计理念除了让制作者交互分析外，更鼓励查看�
     
     <item>
       <title>数据可视化产品：BDP</title>
-      <link>http://wangdongxing.com/posts/pm/bdp/</link>
+      <link>https://salmon4g.github.io/posts/pm/bdp/</link>
       <pubDate>Sat, 15 Jul 2017 12:20:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/pm/bdp/</guid>
+      <guid>https://salmon4g.github.io/posts/pm/bdp/</guid>
       <description>数据相关的职位，不论是数据分析师还是数据产品经理，都离不开和数据报表打交道。小到一份数据报告，大到一个 BI (Business Intelligence 商业智能)产品，都和数据可视化息息相关。今天和大家分享一个优秀的数据可视化产品 —— BDP. BDP 是北京海致公司出品的商业智能产品，与国外的 Tableau、Qlik，国内的永宏 BI 类似。BDP 去年我就有在使用，此次介绍主要从支持的「支持的数据类型」、「数据处理能力」、「视觉、交互、操作」三方面介绍。
 支持的数据类型 作为一个 BI 产品，能支持丰富的数据类型是很重要的。除了支持上传 Excel、MySQL、Oracle、SQLServer、Hive 等主流的数据源外，BDP 还支持网络营销数据、在线客户数据、网站监测数据及一些公共数据。 （支持的数据源）
 网络营销数据 BDP 支持的很丰富，如百度搜索推广、搜狗搜索推广、360 搜索推广、神马搜索推广，百度网盟推广、搜狗网盟推广、360 移动推广，现在又增加了微信公众号平台、微信小程序、百度指数、今日头条推广、网易新闻推广和优酷土豆 DSP 等平台。
@@ -140,10 +140,10 @@ BDP 官网描述的「亿级数据秒级处理」我没有试过，不过我把�
     
     <item>
       <title>统计系统 vs 分析系统</title>
-      <link>http://wangdongxing.com/posts/pm/statistics-vs-analysis-system/</link>
+      <link>https://salmon4g.github.io/posts/pm/statistics-vs-analysis-system/</link>
       <pubDate>Fri, 29 Jul 2016 12:10:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/pm/statistics-vs-analysis-system/</guid>
+      <guid>https://salmon4g.github.io/posts/pm/statistics-vs-analysis-system/</guid>
       <description>当企业在走「数据驱动决策」、「精细化运营」之路时，网站数据监测系统必不可少。以下是我曾经使用和接触过的一些数据监测产品： 这么多的网站数据监测产品，到底该选哪个？答案是：适合自己业务的。如何选择「适合自己业务的数据监测产品」后面会详细介绍，今天先从「统计系统」和「分析系统」角度对如上监测系统进行归类。它们之间有什么区别呢？先看一个使用场景：
 小王是一家公司网站数据分析师，每天上班的第一件事就是打开公司网站的数据监测系统看数据。当他浏览到「地域主题」时，发现北京地区的跳出率(Bounce Rate)极高，数据如下图： 经验告诉小王，一定是哪里出了问题。小王第一时间想到了昨日公司新找了一个付费流量渠道，于是打开「渠道主题」，相比其他付费渠道，新加的渠道跳出率也不高。经验再一次告诉小王，新加的这个渠道一定有问题！小王再次回到「地域主题」，并加了「流量来源」维度，看到如下数据，他知道问题的答案了。 原来昨日新加的付费流量渠道(Ad_09)确实有问题：其他城市流量均正常，只有北京地区有刷流量。如果仅通过「渠道主题」看，数据被平均后很难发现问题。
 以上是最为简单的使用场景，现在我将「统计系统」和「分析系统」放入到场景中：
@@ -154,10 +154,10 @@ BDP 官网描述的「亿级数据秒级处理」我没有试过，不过我把�
     
     <item>
       <title>很贵的数据监测产品： Omniture</title>
-      <link>http://wangdongxing.com/posts/pm/omniture/</link>
+      <link>https://salmon4g.github.io/posts/pm/omniture/</link>
       <pubDate>Sat, 19 Sep 2015 10:30:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/pm/omniture/</guid>
+      <guid>https://salmon4g.github.io/posts/pm/omniture/</guid>
       <description>数据监测产品有很多，我使用过的，就有十几款，价格也是从免费到十几万人民币，到大几十万人民币，以及百万人民币不等。本文介绍的是最贵的数据监测产品：Omniture.
 Omniture SiteCatalyst，是美国优秀的网站分析系统。进入中国市场后，大家习惯称之为「Omniture」。2004 年 10 月，Omniture 被 Jupiter Research 评为「网站分析市场的绝对领导者」。2009 年 9 月，Adobe 公司宣布收购 Omniture，并将其命名为「Adobe Analytics」。
 (更名后的 Omniture) 在接触过的网站分析(监测)系统中，OM 是价格最贵的同时，功能也是最强大的。便于书写，以下用 OM 代指 Omniture, 即为 Adobe Analytics.
@@ -184,10 +184,10 @@ OM 的实时报表数据延迟不超过两分钟，每分钟自动更新。同�
     
     <item>
       <title>数据可视化之热力图</title>
-      <link>http://wangdongxing.com/posts/pm/heat-map/</link>
+      <link>https://salmon4g.github.io/posts/pm/heat-map/</link>
       <pubDate>Sat, 15 Aug 2015 12:28:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/pm/heat-map/</guid>
+      <guid>https://salmon4g.github.io/posts/pm/heat-map/</guid>
       <description>热力图也是一种数据可视化，通过热力图可以直观展现数据分布。热力图几年前在网页中应用比较多，现在随着大数据时代的到来，百度地图、高德地图也推出了人群分布热力图，直观反映区域地理位置的人群拥挤情况。
 网页中的热力图通常可以通过以下两方面来指导网页优化、广告位优化：
 页面哪部分更能吸引访问者 页面哪些非超链接被访问者误认为是超链接而点击 热力图原理 前端JS记录鼠标停留在页面的坐标的数据，并将数据以日志形式存储到服务器中，程序拿到这些数据并进行图形渲染，最后通过设置阀值在页面呈现热力图效果。
@@ -196,10 +196,10 @@ OM 的实时报表数据延迟不超过两分钟，每分钟自动更新。同�
     
     <item>
       <title>优秀的数据监测产品：Google Analytics</title>
-      <link>http://wangdongxing.com/posts/pm/ga-1/</link>
+      <link>https://salmon4g.github.io/posts/pm/ga-1/</link>
       <pubDate>Sat, 09 May 2015 12:10:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/pm/ga-1/</guid>
+      <guid>https://salmon4g.github.io/posts/pm/ga-1/</guid>
       <description>数据监测产品有很多，我使用过的，就有十几款，价格也是从免费到十几万人民币，到大几十万人民币，以及百万人民币不等。作为「介绍数据监测产品系列」第一篇，就一定要介绍一款优秀的产品 —— Google Analytics.
 Google Analytics 是一款网站数据监测系统(产品)，也就是我们常说的 Google Analytics. Google Analytics 前身是 Urchin，于 2005 年 3 月时被 Google 收购；同年 11 月，Google 在 Urchin 基础上开发了 Google Analytics.
 （图：Urchin 产品界面）

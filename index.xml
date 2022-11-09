@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>往东行</title>
-    <link>http://wangdongxing.com/</link>
+    <link>https://salmon4g.github.io/</link>
     <description>Recent content on 往东行</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 20 Nov 2021 11:30:00 +0000</lastBuildDate><atom:link href="http://wangdongxing.com/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Nov 2021 11:30:00 +0000</lastBuildDate><atom:link href="https://salmon4g.github.io/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>一些工作方法论</title>
-      <link>http://wangdongxing.com/posts/life/work-methodology/</link>
+      <link>https://salmon4g.github.io/posts/life/work-methodology/</link>
       <pubDate>Sat, 20 Nov 2021 11:30:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/life/work-methodology/</guid>
+      <guid>https://salmon4g.github.io/posts/life/work-methodology/</guid>
       <description>在工作，不知道你有没有思考过这样的问题，Leader 在安排事情的时候是怎么安排的，为什么这件事给 A 做会觉得比较放心，给 B 做心里会没底？ 尝试从大佬们的角度去分析问题，会发现大佬们的一些做事的方法论，这里总结一下，大家一起学习讨论。同一件事情，不同的人做，结果不一样，取决于有的人“会做事”、有的人“不会做事”；给 A 做比较放心，因为 A 一直都“会做事” 。
 会做事的总体思维结构是：做事要有闭环思维，也就是一件事情必须要做好事“事前”、“事中”、“事后”这三个闭环，很多人“不会做事”，是因为都只关注到 “事中”，事前大部分都是 Leader 安排好了，自己没有思考过为什么要做这件事、目标是啥；至于事后，由于项目紧张，事情做完很快就投入到另一件事情了，关于这件事后续如何，如果不是出了线上问题，或者 leader 过问，自己很少会去关注。其实大家技术都差不多，但思维上的细微偏差，长此以往可能就会导致截然不同的发展轨迹，这里围绕“事前-事中-事后”这个闭环思维去展开各个环节中的一些方法论吧。
 事前分析 “为什么要做这件事？”，“痛点是什么？”，这是很多大佬经常问的问题，往往是在你滔滔不绝地介绍方案的时候，大佬们就用这个问题打断了你，既然大佬们经常问，说明背后一定有其深层原因，结合我自身的理解，尝试从产品需求类来分析这个思考的必要性。
@@ -40,10 +40,10 @@
     
     <item>
       <title>优秀的商业智能和数据可视化产品：Power BI</title>
-      <link>http://wangdongxing.com/posts/pm/powerbi/</link>
+      <link>https://salmon4g.github.io/posts/pm/powerbi/</link>
       <pubDate>Thu, 19 Mar 2020 14:08:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/pm/powerbi/</guid>
+      <guid>https://salmon4g.github.io/posts/pm/powerbi/</guid>
       <description>Power BI 是 Microsoft 出品的一套商业智能体系（包括软件，工具，服务等），可用来构建从个人到中大型企业组织的商业智能平台，便于产品、运营、数据分析师等用户探索和分析数据。
 和 Tableau 一样，Power BI 也支持非常丰富的数据源，接入数据源后也可以快速实现数据可视化及分析探索；同时，Power BI 也在 Gartner 分析和商业智能魔力象限中被评为领导者，BI(商业智能)和可视化方面十分优秀。
 PowerBI运行逻辑 PowerBI 整体的运行逻辑是先把数据源按指标场景「筛选」数据、生成「度量值」后，把度量值作为生成图表的「上下文」及依据。
@@ -85,10 +85,10 @@ PowerBI运行逻辑 PowerBI 整体的运行逻辑是先把数据源按指标场�
     
     <item>
       <title>企业级开源可视化报表平台：Superset</title>
-      <link>http://wangdongxing.com/posts/pm/superset/</link>
+      <link>https://salmon4g.github.io/posts/pm/superset/</link>
       <pubDate>Sat, 14 Mar 2020 13:46:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/pm/superset/</guid>
+      <guid>https://salmon4g.github.io/posts/pm/superset/</guid>
       <description>Apache Superset 是一款由 Python 语言为主开发的企业级数据探索分析以及可视化的报表平台，由 Airbnb 开源，后面进入 Apache 软件基金会孵化。支持丰富的数据源和可视化图表样式，国内外已经有很多知名企业在使用了，如Airbnb、Netflix、Dropbox、Twitter、去哪儿、B站、豆瓣、腾讯音乐等。
 特征 开源，轻量级、高可用，使用维护简单且便于二次开发 可视化方面非常出色，报表、看板等表现力很好 操作便捷，拖拉拽简单操作便可无代码生成可视化图表 图表类型丰富，有时间序列、组合图、分布图、关系图、GEO地理位置、词汇云、等40多种图表类型 支持数据源丰富，包括Clickhouse、Presto、Durid、Kylin、Impala、Hive、MySQL、Oracle等30多种数据源 先进的SQL IDE，底层配合Clickhouse，自助SQL跑数神器 支持灵活添加自定义可视化插件的能力 实操 我请我同事帮忙写了一份入门教程，具体操作如下：
 1、添加database 2、添加Table 3、SQL查询(生成视图表) 4、绘图 5、设计Dashboad 6、共享Dashboard
@@ -99,10 +99,10 @@ PowerBI运行逻辑 PowerBI 整体的运行逻辑是先把数据源按指标场�
     
     <item>
       <title>读书笔记 | 俞军产品方法论</title>
-      <link>http://wangdongxing.com/posts/reading/product-methodology/</link>
+      <link>https://salmon4g.github.io/posts/reading/product-methodology/</link>
       <pubDate>Sat, 21 Dec 2019 10:03:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/reading/product-methodology/</guid>
+      <guid>https://salmon4g.github.io/posts/reading/product-methodology/</guid>
       <description>俞军老师的《俞军产品方法论》这本书我读了两遍，书中除了详细介绍了理解企业、用户、产品、交易、决策等产品经理必备的知识外，还比较全面的介绍了产品经理岗位需要掌握和了解的底层知识，如经济学、心理学、组织行为等。虽然没有全面展开，却能起到引导作用，这在其他产品经理相关的书籍中很少见到。
 推荐从事产品经理相关的职业的同学阅读此书。
 企业 用户 产品 企业、用户与产品关系 用户价值和企业商业价值的关系是：企业以产品为媒介，与用户 进行价值交换，达成创造商业价值的目的。
@@ -137,10 +137,10 @@ A 类：有深度思考能力或超常同理心。深度思考是指习惯思考
     
     <item>
       <title>产品经理常用的工具</title>
-      <link>http://wangdongxing.com/posts/pm/pm-tools/</link>
+      <link>https://salmon4g.github.io/posts/pm/pm-tools/</link>
       <pubDate>Sat, 10 Aug 2019 13:54:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/pm/pm-tools/</guid>
+      <guid>https://salmon4g.github.io/posts/pm/pm-tools/</guid>
       <description>工作这么多年，有个可能不太好的习惯：喜欢看别人在使用什么软件。如果对方使用的软件好用，我会安装并学习使用；如果对方使用的软件并不那么好用，我会随手推荐一个我用着还不错的软件。正所谓，磨刀不误砍柴工；工欲善其事，必先利其器。
 总结了这 9 大类别、30 多个产品经理常用的工具。我个人感觉这些工具还不错，希望你也喜欢；以下也只是一家之言，欢迎交流~
 一、思维导图工具 思维导图，又叫心智导图、脑图，是表达发散性思维的有效图形思维工具 ，它简单却又很有效，是一种实用性的思维工具。应用于记忆、学习、思考等的思维“地图”，有利于人脑的扩散思维的展开。
@@ -157,10 +157,10 @@ Tableau，连续 6 年在 Gartner 分析和商业智能魔力象限中被评为�
     
     <item>
       <title>商业智能和数据可视化领导者：Tableau</title>
-      <link>http://wangdongxing.com/posts/pm/tableau/</link>
+      <link>https://salmon4g.github.io/posts/pm/tableau/</link>
       <pubDate>Mon, 17 Dec 2018 08:33:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/pm/tableau/</guid>
+      <guid>https://salmon4g.github.io/posts/pm/tableau/</guid>
       <description>Tableau 成立于 2003 年，是斯坦福大学一个计算机科学项目的成果，该项目旨在改善分析流程并让人们能够通过可视化更轻松地使用数据。Tableau 连续 6 年在 Gartner 分析和商业智能魔力象限中被评为领导者，BI(商业智能)和可视化方面十分优秀。
 下面是我在公司(滴滴)负责 Tableau 平台的一些信息：
 产品：1人(我)，负责平台二次开发(权限系统打通、审批流程设计)，日常运营(问题答疑、权限管控、使用手册撰写、定期培训等) 开发：1-2人，负责定制开发，数仓维护、系统健康度管控 业务部门：整个滴滴公司10+业务部门使用 人数：日均用户数1800+ 使用产品：Tableau Desktop + Tableau Server，永久授权版 费用：几百万/年 Tableau主要产品线
@@ -188,10 +188,10 @@ Tableau看板的设计理念除了让制作者交互分析外，更鼓励查看�
     
     <item>
       <title>读书笔记 | 首席增长官</title>
-      <link>http://wangdongxing.com/posts/reading/chief-growth-officer/</link>
+      <link>https://salmon4g.github.io/posts/reading/chief-growth-officer/</link>
       <pubDate>Wed, 15 Nov 2017 12:02:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/reading/chief-growth-officer/</guid>
+      <guid>https://salmon4g.github.io/posts/reading/chief-growth-officer/</guid>
       <description>感谢 GrowingIO 送来《首席增长官》一书。
 互联网用户增长速度放缓导致人口红利衰减、流量红利萎缩，企业也从粗犷的运营方式改变为精细化运营。而数据，则是驱动精细化运营的关键。正像彼得德鲁克多所说：如果你不能衡量，就无法增长(If you can’t measure it, you can’t improve it)。
 如何做到数据驱动运营、数据驱动增长，《首席增长官》这本书给了一套系统化指南。书的作者张溪梦(Simon)，GrowingIO 创始人，有着丰富的数据分析经验，亲手建立 LinkedIn 将近百人商业分析和数据科学团队，支撑了 LinkedIn 公司所有与营收相关业务的高速增长。
@@ -210,10 +210,10 @@ Tableau看板的设计理念除了让制作者交互分析外，更鼓励查看�
     
     <item>
       <title>数据可视化产品：BDP</title>
-      <link>http://wangdongxing.com/posts/pm/bdp/</link>
+      <link>https://salmon4g.github.io/posts/pm/bdp/</link>
       <pubDate>Sat, 15 Jul 2017 12:20:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/pm/bdp/</guid>
+      <guid>https://salmon4g.github.io/posts/pm/bdp/</guid>
       <description>数据相关的职位，不论是数据分析师还是数据产品经理，都离不开和数据报表打交道。小到一份数据报告，大到一个 BI (Business Intelligence 商业智能)产品，都和数据可视化息息相关。今天和大家分享一个优秀的数据可视化产品 —— BDP. BDP 是北京海致公司出品的商业智能产品，与国外的 Tableau、Qlik，国内的永宏 BI 类似。BDP 去年我就有在使用，此次介绍主要从支持的「支持的数据类型」、「数据处理能力」、「视觉、交互、操作」三方面介绍。
 支持的数据类型 作为一个 BI 产品，能支持丰富的数据类型是很重要的。除了支持上传 Excel、MySQL、Oracle、SQLServer、Hive 等主流的数据源外，BDP 还支持网络营销数据、在线客户数据、网站监测数据及一些公共数据。 （支持的数据源）
 网络营销数据 BDP 支持的很丰富，如百度搜索推广、搜狗搜索推广、360 搜索推广、神马搜索推广，百度网盟推广、搜狗网盟推广、360 移动推广，现在又增加了微信公众号平台、微信小程序、百度指数、今日头条推广、网易新闻推广和优酷土豆 DSP 等平台。
@@ -231,10 +231,10 @@ BDP 官网描述的「亿级数据秒级处理」我没有试过，不过我把�
     
     <item>
       <title>书单 | 数据分析师快速成长10本书</title>
-      <link>http://wangdongxing.com/posts/reading/analyst-books/</link>
+      <link>https://salmon4g.github.io/posts/reading/analyst-books/</link>
       <pubDate>Sat, 11 Feb 2017 11:59:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/reading/analyst-books/</guid>
+      <guid>https://salmon4g.github.io/posts/reading/analyst-books/</guid>
       <description>好朋友 Steven 艺术生出身，做了四五年 UI 和交互后转行做了产品经理，数据分析能力较弱，之前让我推荐过数据分析相关的书籍；最近也有数据分析师朋友让我推荐工作相关的书籍。数据产品经理相关书籍正在整理中，今天推荐的 10 本书主要是面向数据分析师，产品经理及其他职位朋友可以选择性阅读。
 无论是产品经理、数据分析师，还是数据产品经理，数据分析能力都非常重要。我刚好在做数据产品经理前做过两年多数据分析师，也读过一些数据分析相关的书，在此整理并统一做个推荐。
 第 1 本属于必备基础 第 2 本激发兴趣和视野 第 3、4 本属于工具使用 第 5、6 本属于工作基础及思路 第 7 本属于「高段位」 第 8 本属于深入学习 第 9 本属于数据展示 第 10 本偏技术
@@ -254,10 +254,10 @@ BDP 官网描述的「亿级数据秒级处理」我没有试过，不过我把�
     
     <item>
       <title>读书笔记 | 精益数据分析</title>
-      <link>http://wangdongxing.com/posts/reading/lean-analytis/</link>
+      <link>https://salmon4g.github.io/posts/reading/lean-analytis/</link>
       <pubDate>Sat, 15 Oct 2016 10:59:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/reading/lean-analytis/</guid>
+      <guid>https://salmon4g.github.io/posts/reading/lean-analytis/</guid>
       <description>若是竞争对手先看了这本书，他会把你远远地甩在身后
 这句话是来自德国优秀营销自动化平台提供公司——HubSpot 的首席营销官迈克.沃尔佩，对《精益数据分析》这本书的赞誉。
 可能是职业病的原因，访问别人网站时喜欢查看网站埋点情况。会发现一些网站在数据采集上做的并不那么「精益」，如果数据采集仅能得 60 分，那么很难在数据分析中得 100 分。如《精益数据分析》作者所说，「精益创业」的风靡，几乎所有创业者都知道「敏捷开发」，知道「MVP, 最小可行性产品」，知道「构建-衡量-学习」流程，唯独数据成了精益创业里最不精益的工作。
@@ -276,10 +276,10 @@ BDP 官网描述的「亿级数据秒级处理」我没有试过，不过我把�
     
     <item>
       <title>统计系统 vs 分析系统</title>
-      <link>http://wangdongxing.com/posts/pm/statistics-vs-analysis-system/</link>
+      <link>https://salmon4g.github.io/posts/pm/statistics-vs-analysis-system/</link>
       <pubDate>Fri, 29 Jul 2016 12:10:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/pm/statistics-vs-analysis-system/</guid>
+      <guid>https://salmon4g.github.io/posts/pm/statistics-vs-analysis-system/</guid>
       <description>当企业在走「数据驱动决策」、「精细化运营」之路时，网站数据监测系统必不可少。以下是我曾经使用和接触过的一些数据监测产品： 这么多的网站数据监测产品，到底该选哪个？答案是：适合自己业务的。如何选择「适合自己业务的数据监测产品」后面会详细介绍，今天先从「统计系统」和「分析系统」角度对如上监测系统进行归类。它们之间有什么区别呢？先看一个使用场景：
 小王是一家公司网站数据分析师，每天上班的第一件事就是打开公司网站的数据监测系统看数据。当他浏览到「地域主题」时，发现北京地区的跳出率(Bounce Rate)极高，数据如下图： 经验告诉小王，一定是哪里出了问题。小王第一时间想到了昨日公司新找了一个付费流量渠道，于是打开「渠道主题」，相比其他付费渠道，新加的渠道跳出率也不高。经验再一次告诉小王，新加的这个渠道一定有问题！小王再次回到「地域主题」，并加了「流量来源」维度，看到如下数据，他知道问题的答案了。 原来昨日新加的付费流量渠道(Ad_09)确实有问题：其他城市流量均正常，只有北京地区有刷流量。如果仅通过「渠道主题」看，数据被平均后很难发现问题。
 以上是最为简单的使用场景，现在我将「统计系统」和「分析系统」放入到场景中：
@@ -290,10 +290,10 @@ BDP 官网描述的「亿级数据秒级处理」我没有试过，不过我把�
     
     <item>
       <title>Mac下安装和使用GitBook</title>
-      <link>http://wangdongxing.com/posts/life/mac-gitbook/</link>
+      <link>https://salmon4g.github.io/posts/life/mac-gitbook/</link>
       <pubDate>Sat, 11 Jun 2016 12:28:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/life/mac-gitbook/</guid>
+      <guid>https://salmon4g.github.io/posts/life/mac-gitbook/</guid>
       <description>GitBook 是一款基于 Node.js 的命令行工具，配合 Markdown 写文档简直是一大「神器」。很多互联网产品的帮助文档都在使用 GitBook 编写，也有好多人用它来写电子书。
 Mac下安装 GitBook 1、安装 Node.js
 打开 Node.js 官网(www.nodejs.org)下载并安装 Node.js。安装完在终端检验：
@@ -310,10 +310,10 @@ gitbook serve 然后在浏览器中输入 http://localhost:4000 预览，按 Ctr
     
     <item>
       <title>读书笔记 | 精益创业</title>
-      <link>http://wangdongxing.com/posts/reading/lean-startup/</link>
+      <link>https://salmon4g.github.io/posts/reading/lean-startup/</link>
       <pubDate>Mon, 02 May 2016 12:59:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/reading/lean-startup/</guid>
+      <guid>https://salmon4g.github.io/posts/reading/lean-startup/</guid>
       <description>上一次读《精益创业》时，好多创业公司还没有成立；这周再读《精益创业》时，这些公司已经倒闭了。
 相比传统行业，互联网行业的竞争更加激烈，「一步走错，满盘皆输」。一套科学、有效的「方法论」将成为在凶猛的竞争中立于不败之地的制胜宝典，《精益创业》这本书恰好就是把这套「方法论」告诉了我们。
 实验 在精益创业模式中，实验不仅只是理论上的探寻，也是第一项产品。产品的出现不能「拍脑袋」，而是要先问 4 个问题：
@@ -356,10 +356,10 @@ gitbook serve 然后在浏览器中输入 http://localhost:4000 预览，按 Ctr
     
     <item>
       <title>读书笔记 | 如何阅读一本书</title>
-      <link>http://wangdongxing.com/posts/reading/how-to-read-a-book/</link>
+      <link>https://salmon4g.github.io/posts/reading/how-to-read-a-book/</link>
       <pubDate>Wed, 09 Dec 2015 11:24:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/reading/how-to-read-a-book/</guid>
+      <guid>https://salmon4g.github.io/posts/reading/how-to-read-a-book/</guid>
       <description>《如何阅读一本书》被誉为一本伟大的阅读指导类书籍，在该领域内能达到如此高度的书很少。作者提倡主动阅读，主动阅读的探索能力更强，收获也就越多。
 主动阅读一本书时，要提出四个问题：
 整体来说，这本书到底在谈什么？ 作者细部说了什么，怎么说的？ 这本书说的有道理吗？是全部还是部分有？ 这本书跟你有什么关系？ 阅读的四种层次（四种阅读方法）：基础阅读. 检视阅读. 分类阅读和主题阅读。
@@ -386,10 +386,10 @@ B、主题阅读：阅读所有第一阶段收集到的书籍
     
     <item>
       <title>读书笔记 | 数据之巅</title>
-      <link>http://wangdongxing.com/posts/reading/datatop/</link>
+      <link>https://salmon4g.github.io/posts/reading/datatop/</link>
       <pubDate>Fri, 20 Nov 2015 11:21:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/reading/datatop/</guid>
+      <guid>https://salmon4g.github.io/posts/reading/datatop/</guid>
       <description>《数据之巅》这本书是 VP 推荐给我们看的，当时各种原因一直没看。最近突然想起，用了不到一周的时间看完了。
 《数据之巅》的作者涂子沛，现任阿里巴巴副总裁。2012 年写过一本《大数据》，社会对《大数据》这本书的评价很高，国务院副总理汪洋在广东省财政厅调研时，向全体干部推荐《大数据》一书，并在讲话中说：「我希望大家能认真读一读这本书，带着问题读，带着想法读。」
 《数据之巅》以美国历史历史为纵线，包括美国第一个百年的三个时代：初数时代、内战时代、镀金时代，以及 20 世纪后数据成熟期的量化时代、抽样时代、开放时代、大数据时代。记述美国建国初期民主分权到两党之争过程中对数据的态度和应用，通过人口普查平息难忘战争和解放黑奴等历史…
@@ -408,10 +408,10 @@ B、主题阅读：阅读所有第一阶段收集到的书籍
     
     <item>
       <title>很贵的数据监测产品： Omniture</title>
-      <link>http://wangdongxing.com/posts/pm/omniture/</link>
+      <link>https://salmon4g.github.io/posts/pm/omniture/</link>
       <pubDate>Sat, 19 Sep 2015 10:30:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/pm/omniture/</guid>
+      <guid>https://salmon4g.github.io/posts/pm/omniture/</guid>
       <description>数据监测产品有很多，我使用过的，就有十几款，价格也是从免费到十几万人民币，到大几十万人民币，以及百万人民币不等。本文介绍的是最贵的数据监测产品：Omniture.
 Omniture SiteCatalyst，是美国优秀的网站分析系统。进入中国市场后，大家习惯称之为「Omniture」。2004 年 10 月，Omniture 被 Jupiter Research 评为「网站分析市场的绝对领导者」。2009 年 9 月，Adobe 公司宣布收购 Omniture，并将其命名为「Adobe Analytics」。
 (更名后的 Omniture) 在接触过的网站分析(监测)系统中，OM 是价格最贵的同时，功能也是最强大的。便于书写，以下用 OM 代指 Omniture, 即为 Adobe Analytics.
@@ -438,10 +438,10 @@ OM 的实时报表数据延迟不超过两分钟，每分钟自动更新。同�
     
     <item>
       <title>数据可视化之热力图</title>
-      <link>http://wangdongxing.com/posts/pm/heat-map/</link>
+      <link>https://salmon4g.github.io/posts/pm/heat-map/</link>
       <pubDate>Sat, 15 Aug 2015 12:28:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/pm/heat-map/</guid>
+      <guid>https://salmon4g.github.io/posts/pm/heat-map/</guid>
       <description>热力图也是一种数据可视化，通过热力图可以直观展现数据分布。热力图几年前在网页中应用比较多，现在随着大数据时代的到来，百度地图、高德地图也推出了人群分布热力图，直观反映区域地理位置的人群拥挤情况。
 网页中的热力图通常可以通过以下两方面来指导网页优化、广告位优化：
 页面哪部分更能吸引访问者 页面哪些非超链接被访问者误认为是超链接而点击 热力图原理 前端JS记录鼠标停留在页面的坐标的数据，并将数据以日志形式存储到服务器中，程序拿到这些数据并进行图形渲染，最后通过设置阀值在页面呈现热力图效果。
@@ -450,10 +450,10 @@ OM 的实时报表数据延迟不超过两分钟，每分钟自动更新。同�
     
     <item>
       <title>优秀的数据监测产品：Google Analytics</title>
-      <link>http://wangdongxing.com/posts/pm/ga-1/</link>
+      <link>https://salmon4g.github.io/posts/pm/ga-1/</link>
       <pubDate>Sat, 09 May 2015 12:10:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/pm/ga-1/</guid>
+      <guid>https://salmon4g.github.io/posts/pm/ga-1/</guid>
       <description>数据监测产品有很多，我使用过的，就有十几款，价格也是从免费到十几万人民币，到大几十万人民币，以及百万人民币不等。作为「介绍数据监测产品系列」第一篇，就一定要介绍一款优秀的产品 —— Google Analytics.
 Google Analytics 是一款网站数据监测系统(产品)，也就是我们常说的 Google Analytics. Google Analytics 前身是 Urchin，于 2005 年 3 月时被 Google 收购；同年 11 月，Google 在 Urchin 基础上开发了 Google Analytics.
 （图：Urchin 产品界面）
@@ -466,10 +466,10 @@ Google Analytics 有两个版本：免费版和付费版(Premium)。付费版 15
     
     <item>
       <title>数据分析师的技能树</title>
-      <link>http://wangdongxing.com/posts/analytics/analyst-skill-tree/</link>
+      <link>https://salmon4g.github.io/posts/analytics/analyst-skill-tree/</link>
       <pubDate>Sat, 13 Dec 2014 10:59:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/analytics/analyst-skill-tree/</guid>
+      <guid>https://salmon4g.github.io/posts/analytics/analyst-skill-tree/</guid>
       <description>如今流量获取成本不断提高，越来越多的企业从粗放的运营模式转变为精细化运营，企业对员工素质的要求也越来越高。设计师能做数据分析，产品经理能做数据分析，运营也能做数据分析，甚至 CEO 也自己做起了数据分析。
 数据分析师想要提高自己的价值，就需要不断提高自己的「技能树」。 注：本文所述的数据分析指的是网站数据分析
 0、准备阶段 数据分析离不开使用 Excel，熟练掌握 Excel 常用操作是必须的。
@@ -483,10 +483,10 @@ Google Analytics 有两个版本：免费版和付费版(Premium)。付费版 15
     
     <item>
       <title>伸手党</title>
-      <link>http://wangdongxing.com/posts/life/get-to-easy/</link>
+      <link>https://salmon4g.github.io/posts/life/get-to-easy/</link>
       <pubDate>Sat, 25 Jan 2014 11:59:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/life/get-to-easy/</guid>
+      <guid>https://salmon4g.github.io/posts/life/get-to-easy/</guid>
       <description>伸手党在百科中有这么一个解释：想经过他人直接获得某个问题的答案而不自己搜索。伸手党在网站分析 QQ 群中也经常出现，这里所谓的伸手党为遇到问题（无论难易），不主动通过搜索引擎、或者自己实验，而直接将为题抛到 QQ 群中，常见如下：
 为什么我无法登录 GA 了？/ Google Anlaytics 登录白屏怎么办？ 我网站的流量今天突然减少了很多，这是为什么呢？ 除了 Google Analytics 还有哪些网站分析工具啊？ 为什么百度统计和 Google Analytics 统计的数据不一样呢？ 求 Google Analytcis 的登录地址？ 为什么不能识别 so.com 搜索引擎？ 我有多个二级域名，如何设置跨域啊？ 我是新人，该怎么学习网站分析呢？ 我的 Google Analytics 账户数据全部没有了，怎么回事呢？ 网站分析有哪些适合入门的书籍？ …… 类似的问题太多了，而且不断重复出现的 QQ 群中。有很多问题扔个关键词到搜索引擎中就能看到相关的内容，很多前辈（如宋星老师的网站分析在中国）的博客，很多基础都写的非常清楚了。蓝鲸博客也写了很多关于 Google Analtycis 使用方面的博文，而且还将博客整理成书。但是有些人就是不去自己查，而是把问题扔到 QQ 群中，然后坐等答案（和伸手党有何区别）。不过由于 Google Analtycis 不断更新，很多配置也有所调整、有些函数方法已经弃用，或者失效，所以对于 Google Analytics 使用方面的问题最好还是到官方文档中找最新的解决方案（Google Analytics 官方文档也有写错的地方，前段时间发现两处，反馈给了官方和 Justin，官方及时做了修正）。
 即使是做 SEO、SEM、设计、运营等并非专职的分析人员，随着网站精细化运营，网站分析都变的非常重要，网站分析基础知识都是要学的。买本基础书籍、多读前辈写的博文，而不是遇到问题直接将问题扔到 QQ 群。还有些人的问题描述也不太清楚，建议读读“提问的智慧”。
@@ -497,10 +497,10 @@ Google Analytics 有两个版本：免费版和付费版(Premium)。付费版 15
     
     <item>
       <title>2013年个人总结</title>
-      <link>http://wangdongxing.com/posts/life/2013-review/</link>
+      <link>https://salmon4g.github.io/posts/life/2013-review/</link>
       <pubDate>Mon, 30 Dec 2013 12:09:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/life/2013-review/</guid>
+      <guid>https://salmon4g.github.io/posts/life/2013-review/</guid>
       <description>2013 年不管好与坏、得与失，过去了就是过去了。革命尚未成功，同志仍需努力！
 工作 工作是 2013 年最重要的内容，上班时在工作，下班时也在想着工作。对于一个来自大山里的孩子，没有显赫的出身，亦没有过人的天赋，他的字典里没有“衣食无忧”，有的只是“自强不息”，只有不断努力工作才能为将来创造更好的生活。尽管如此，工作并未取得太多的令自己满意的成就。
 1、个人提升
@@ -522,10 +522,10 @@ Google Analytics 有两个版本：免费版和付费版(Premium)。付费版 15
     
     <item>
       <title>R语言一元线性回归模型</title>
-      <link>http://wangdongxing.com/posts/analytics/simple-linear-regression/</link>
+      <link>https://salmon4g.github.io/posts/analytics/simple-linear-regression/</link>
       <pubDate>Tue, 10 Dec 2013 10:13:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/analytics/simple-linear-regression/</guid>
+      <guid>https://salmon4g.github.io/posts/analytics/simple-linear-regression/</guid>
       <description>一元线性回归讨论的是一个因变量 Y 与有一个自变量 X 之间的关系，一元线性回归模型也叫一元线性方程。步骤如下：
 1、数据准备
 x&amp;lt;-c(0.10,0.11,0.12,0.13,0.14,0.15,0.16,0.17,0.18,0.20,0.21,0.23)y&amp;lt;-c(42.0,43.5,45.0,45.5,45.0,47.5,49.0,53.0,50.0,55.0,55.0,60.0)2、画图
@@ -540,10 +540,10 @@ Y = 28.493 + 130.835X附：在 R 语言中，与线性模型有关的函数有 
     
     <item>
       <title>4行Python下载经济学人图表</title>
-      <link>http://wangdongxing.com/posts/analytics/download/</link>
+      <link>https://salmon4g.github.io/posts/analytics/download/</link>
       <pubDate>Mon, 14 Oct 2013 10:59:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/analytics/download/</guid>
+      <guid>https://salmon4g.github.io/posts/analytics/download/</guid>
       <description>经常做图表的同学应该知道经济学人，经济学人的图表简洁、专业值得学习。经济学人的图表是每周一期，大概有五十多期，可以借助 Python 下载。
 思路：
 以一期为基础，将其 URL 按照日期形式 +/-7 拉出所有的 URL 并保存到 txt 中 用 Python 读取 txt 中的 URL 地址并下载 Python 代码如下：
@@ -552,10 +552,10 @@ import urllib with open(&amp;#39;d://url.txt&amp;#39;, &amp;#39;r&amp;#39;) as f
     
     <item>
       <title>读书笔记 | 网站分析师实战指南</title>
-      <link>http://wangdongxing.com/posts/reading/web-analytics-action-hero-notes/</link>
+      <link>https://salmon4g.github.io/posts/reading/web-analytics-action-hero-notes/</link>
       <pubDate>Sat, 12 Oct 2013 11:59:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/reading/web-analytics-action-hero-notes/</guid>
+      <guid>https://salmon4g.github.io/posts/reading/web-analytics-action-hero-notes/</guid>
       <description>楠楠翻译的《网站分析师实战指南》上市了，这本书和《流量的秘密》、《网站分析实战》有些不同，《网站分析师实战指南》并没有太多的工具方面的使用教程，而是围绕如何成为网站分析实战大师展开。
 书中详细介绍了网站分析实战大师的成长之路中会遇到的各种问题，比如将更多的精力放到分析上，而不是充当报告机器人的角色、网站分析实战大师应具备的素质、如果处理好公司中各个部门的关系、分析团队的组建以及高效的进入实战分析中等。
 贴身体会的是网站分析能否发挥出最佳效果绝不是负责网站分析相关人员所能决定的，要各个部门的协助配合，所以公司高层对网站分析人员的支持是更好实现网站分析价值的源动力。
@@ -565,10 +565,10 @@ import urllib with open(&amp;#39;d://url.txt&amp;#39;, &amp;#39;r&amp;#39;) as f
     
     <item>
       <title>级联战略/瀑布型战略</title>
-      <link>http://wangdongxing.com/posts/analytics/cascade-strategy/</link>
+      <link>https://salmon4g.github.io/posts/analytics/cascade-strategy/</link>
       <pubDate>Fri, 20 Sep 2013 10:08:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/analytics/cascade-strategy/</guid>
+      <guid>https://salmon4g.github.io/posts/analytics/cascade-strategy/</guid>
       <description>有些公司采用级联战略，即高级别的公司目标通过各个区域，部门和团队的每个单位自上而下的解读，并且分拆目标到各个独立的领域。原则上，这是级联战略基本的工作模式，但正如我们已经看到的空气三明治（空气三明治战略在顶层有着清晰的目标和未来的方向，在底层也辅有每日的行动，而中间去什么都没有——既没有肉一样的关键性决策来连接这两层，也没有丰富难爵的中间层填充物来调整公司内新的方向与新的行动）的中间部分通常被假设、暗示、不清晰或者缺失，特别是涉及在线业务部分时，级联战略有时感觉更像是一场企业混战，此外，除了目标和战略措施的脱节了外，你还可以发现其他关键要素的差距，如关键绩效指标（KPI）、目标、范围和优先级。
 级联战略方针的危险之一在于，当不同的团队在优化工作中太孤立时，会不知不觉违背或抵消其他团队的努力成果。由于每个独立团队（电子邮件，搜索引擎优化，付费搜索，内容团队），仅仅理解和执行整体在线战略的一部分，他们往往没有考虑到他们的努力对其他措施的影响，也没有将自己的成功与网站整体目标相结合。其结果就是，各种在线措施的整体效果远小于各部分效果的总和，而网站分析师在中间起到了举足轻重的作用，可以把各个部门的努力集中到统一的中心目标，并且帮忙优化整个在线渠道，而不仅仅是各个孤立的部分。
 无论你的公司是否已经实施了级联战略，在公司级别的总战略中将不同的业务目标、优先事项和措施于不同级别的战略映射起来是值得做的。级联战略框架将帮助你更好地了解在线评估效果。当你专注于更好地理解在线战略时，注意图中展示的五个关键层次，以及下面列表中的明细。
@@ -587,10 +587,10 @@ import urllib with open(&amp;#39;d://url.txt&amp;#39;, &amp;#39;r&amp;#39;) as f
     
     <item>
       <title>分析师的商业敏感度</title>
-      <link>http://wangdongxing.com/posts/analytics/analyst-business-acumen/</link>
+      <link>https://salmon4g.github.io/posts/analytics/analyst-business-acumen/</link>
       <pubDate>Wed, 18 Sep 2013 09:59:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/analytics/analyst-business-acumen/</guid>
+      <guid>https://salmon4g.github.io/posts/analytics/analyst-business-acumen/</guid>
       <description>一个网站分析师需要的不仅仅是分析能力，更重要的是对业务的理解。没有足够的商业敏感度，网站分析师的建议是没有可操作性的。分析师需要身处复杂和真实的商业环境中，这样说提供建议才会与业务相关，才具有实践意义。值得注意的是，分析师需要掌握以下业务相关的属性。
 全局视野 专注于每日日常分析的分析师会面临一个很大的危险，就是容易迷失在每日的细节数据中。实际上你需要同时关注细节和全局。成功的分析师会对业务的运营和盈利点就着敏锐的理解——无论是线上还是线下。通过对商业行为的透析，他们可以将战术级别的建议融入公司的战略目标中，主动优化相关的业务。他们的深刻见解和潜在可执行策略能够与高级主管（对公司的全局发展产生影响的关键人物）产生共鸣。
 以用户为中心 在用户联系和社交经济蓬勃发展的今天，维系用户的关系变得至关重要，因此需要将“以用户为中心”作为基本的做事准则。这个时候，就要求网站分析师能够站在用户的角度来思考。他们通过定量和定性的数据研究用户行为，转化以及用户需求，并以此提升业务的价值。他们能够区分用户的要求和真实的需求，从而让产品能够更加契合用户的内心。
@@ -600,10 +600,10 @@ import urllib with open(&amp;#39;d://url.txt&amp;#39;, &amp;#39;r&amp;#39;) as f
     
     <item>
       <title>辨别虚假流量</title>
-      <link>http://wangdongxing.com/posts/analytics/identify-false-traffic/</link>
+      <link>https://salmon4g.github.io/posts/analytics/identify-false-traffic/</link>
       <pubDate>Fri, 08 Feb 2013 09:06:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/analytics/identify-false-traffic/</guid>
+      <guid>https://salmon4g.github.io/posts/analytics/identify-false-traffic/</guid>
       <description>为网站导入更多流量，会和多种渠道合作，不排除有些渠道有作弊行为，为网站导入很多虚假流量。辨别虚假流量步骤大致如下：
 1、高级细分分隔流量。使用高级细分将这部分广告流量和其他流量进行分隔，在其他报告中可以选择该细分。
 2、流量产生时间。按小时或者天粒度查看网站访问流量分布。
@@ -621,10 +621,10 @@ import urllib with open(&amp;#39;d://url.txt&amp;#39;, &amp;#39;r&amp;#39;) as f
     
     <item>
       <title>GA电子商务追踪设置</title>
-      <link>http://wangdongxing.com/posts/analytics/tracking-ecommerce/</link>
+      <link>https://salmon4g.github.io/posts/analytics/tracking-ecommerce/</link>
       <pubDate>Sat, 07 Jul 2012 10:10:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/analytics/tracking-ecommerce/</guid>
+      <guid>https://salmon4g.github.io/posts/analytics/tracking-ecommerce/</guid>
       <description>一、启用电子商务追踪
 在 Google Analytics 配置文件中启用电子商务追踪功能。
 二、定制电子商务追踪代码
@@ -634,10 +634,10 @@ import urllib with open(&amp;#39;d://url.txt&amp;#39;, &amp;#39;r&amp;#39;) as f
     
     <item>
       <title>GA虚拟页面和事件追踪</title>
-      <link>http://wangdongxing.com/posts/analytics/virtual-page-event-track/</link>
+      <link>https://salmon4g.github.io/posts/analytics/virtual-page-event-track/</link>
       <pubDate>Sun, 13 May 2012 10:59:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/analytics/virtual-page-event-track/</guid>
+      <guid>https://salmon4g.github.io/posts/analytics/virtual-page-event-track/</guid>
       <description>有时，我们需要监测一些不能产生页面浏览的行为，比如点击友情链接跳转到其他网站、点击下载网站附件以及点击 Flash 等内容。Google Analytics 监测类似这些内容常用的统计方法是虚拟页面和事件追踪。
 1、Google Analytics 虚拟页面
 虚拟页面顾名思义就是制作一个并非真实的页面，就用到的 Google Analytics 的方法 _trackPageview()，_trackPageview() 方法会将点击数据发送到服务器，并在报告中展示。虚拟页面并非真是存在，所以在配置过程中要做好归类，便于识别。
@@ -655,10 +655,10 @@ _gaq.push([&#39;_trackEvent&#39;, &#39;Videos&#39;, &#39;Video Load Time&#39;, &
     
     <item>
       <title>先做该做的，再做喜欢做的</title>
-      <link>http://wangdongxing.com/posts/life/have-to-do-and-like-doing/</link>
+      <link>https://salmon4g.github.io/posts/life/have-to-do-and-like-doing/</link>
       <pubDate>Thu, 12 Apr 2012 10:59:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/life/have-to-do-and-like-doing/</guid>
+      <guid>https://salmon4g.github.io/posts/life/have-to-do-and-like-doing/</guid>
       <description>初中时开始听 BEYOND 的歌，后来就一发不可收拾的喜欢上了这支摇滚乐队。那时就一直想买一把吉他，弹一弹“真的爱你”（一首歌颂母爱伟大的歌曲）的 solo。高一时买了一把吉他，一本吉他教材开始自学起了吉他，有时上课的时候也在看，中午去食堂买两个馒头就匆忙回宿舍练习，左手拿起馒头肯一口，放下，放到吉他把为上，就这样一边吃馒头一遍练习。当时馒头的味道早已记不得了，但是那段日子至今还记忆犹新。
 当时班主任说过一句话：“先做该做的，再做喜欢做的”。学生该做的就是学习，只有好好学习才能考上大学，才能找到好的工作，才能有资本去做自己喜欢做的。尽管有万分不舍，但是还是毅然把吉他拿回家，琴弦调松，尘封起来。
 大学一年级和同系的同学一起创办了吉他社团，社团纳新，教社员吉他，带领他们玩，并顺便组建了一个乐队。这样，高中做了该做的事，换得了大一做的喜欢的事。大学有大学该做的事，所以大二就退出了社团，解散了乐队，开始学习计算机相关了知识。图片设计、网站开发、前端开发、SEO、网络营销、网站分析……
@@ -668,10 +668,10 @@ _gaq.push([&#39;_trackEvent&#39;, &#39;Videos&#39;, &#39;Video Load Time&#39;, &
     
     <item>
       <title>GA跨域追踪</title>
-      <link>http://wangdongxing.com/posts/analytics/cross-domain-tracking/</link>
+      <link>https://salmon4g.github.io/posts/analytics/cross-domain-tracking/</link>
       <pubDate>Sat, 03 Mar 2012 08:23:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/analytics/cross-domain-tracking/</guid>
+      <guid>https://salmon4g.github.io/posts/analytics/cross-domain-tracking/</guid>
       <description>Google Analytics 跨域追踪设置用到四个方法有：_setDomainName()、_setAllowLinker()、_link()和 _linkByPost()。_setDomainName() 用来设置 GATC cookies 的域名名字，下面是允许跨域追踪的设置，如果不允许跨域可设置为_gaq.push([&amp;rsquo;_setDomainName&amp;rsquo;, &amp;rsquo;none&amp;rsquo;]); 。_setAllowLinker() 是启用跨域追踪的链接功能标志的一部分，默认设置为 false 链接是被禁用的，_link(), _linkByPost() 配合_setAllowLinker()使用。详细设置如下：
 跨域追踪主域名及其子域名
 在 _gaq.push([&amp;rsquo;_trackPageview&amp;rsquo;]); 前加 _gaq.push([&amp;rsquo;_setDomainName&amp;rsquo;, &amp;rsquo;example.com&amp;rsquo;]);即可，如下：
@@ -685,10 +685,10 @@ B 中设置追踪代码：
     
     <item>
       <title>GA流量来源分类及覆盖规则</title>
-      <link>http://wangdongxing.com/posts/analytics/source-overwrite/</link>
+      <link>https://salmon4g.github.io/posts/analytics/source-overwrite/</link>
       <pubDate>Thu, 19 Jan 2012 11:31:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/analytics/source-overwrite/</guid>
+      <guid>https://salmon4g.github.io/posts/analytics/source-overwrite/</guid>
       <description>Google Analytics 中对流量来源各渠道进行了分类，同时各类流量来源优先级也不相同，也就存在各流量来源渠道的覆盖规则。Google Analytics 流量来源渠道分类如下：
 一、市场投放（Campaigns）
 多指广告活动流量，最常见的是 PPC 广告，Google 的 Adwords（无需单独标记），百度的关键词推广，还可以对其他广告进行标记（标记工具：URL Builder）。
@@ -704,10 +704,10 @@ Google Analytics 流量覆盖规则 Google Analytics 不同渠道的优先级不
     
     <item>
       <title>Google Analytics cookie</title>
-      <link>http://wangdongxing.com/posts/analytics/ga-cookie/</link>
+      <link>https://salmon4g.github.io/posts/analytics/ga-cookie/</link>
       <pubDate>Mon, 02 Jan 2012 09:21:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/analytics/ga-cookie/</guid>
+      <guid>https://salmon4g.github.io/posts/analytics/ga-cookie/</guid>
       <description>Google Analytics cookie 是访问添加过 Google Analytics 监测的网站时生成的， Google Analytics cookie 最为常见的有四个：__utma、__utmb、__utmc 和 __utmz。
 __utma：默认有效期两年，用来识别访问者和访问次数。包含 6 个字段，从左到右分别代表域哈希值、访问者 ID（唯一）、首次访问时间、上次访问时间、本次访问开始时间和访问次数。
 （注：访问时间数值为 Unix 系统时间，从1970年1月1日0点0分0秒开始计算）
@@ -719,10 +719,10 @@ utmcsr = sourceutmcmd = mediumutmccn = campaign nameutmctr = campaign keyword
     
     <item>
       <title>第一方cookie和第三方cookie</title>
-      <link>http://wangdongxing.com/posts/analytics/cookie/</link>
+      <link>https://salmon4g.github.io/posts/analytics/cookie/</link>
       <pubDate>Fri, 25 Nov 2011 10:59:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/analytics/cookie/</guid>
+      <guid>https://salmon4g.github.io/posts/analytics/cookie/</guid>
       <description>第一方cookie和第三方cookie都是相对当前访问的网站来说的，比如我访问了wangdongxing.com我的博客，而新浪（sina.com.cn）在我的博客中投放了一个广告（尽管不可能），并加入了它的数据监测代码，那么在我的电脑本地通常会产生两个cookie，cookie中记录如果是wangdongxing.com，那么这个cookie就是第一方cookie，如果记录的是sina.com.cn，那么这个cookie就是第三方cookie。
 相反，如果我的博客（wangdongxing.com）在新浪上投放了一个广告（也有点不可能:P），并加入了数据监测代码，那么你在浏览新浪（sina.com.cn）的时候，在你的电脑本地生成两个cookie，如果cookie中记录的域名是sina.com.cn，那么这个cookie就是第一方cookie，如果是wangdongxing.com那么这个cookie就是第三方cookie。
 第一方cookie和第三方cookie的最大区别就是针对不同人群有不同喜好，对应从事网站分析以及互联网监测者来说，是倾向第三方cookie，因为可以用它监测跨网站的访问行为；但是对于网站访问者了来说是不喜欢自己的浏览行为被其它网站监测，会考虑自己隐私是否被泄漏等。
@@ -731,10 +731,10 @@ utmcsr = sourceutmcmd = mediumutmccn = campaign nameutmctr = campaign keyword
     
     <item>
       <title>session是什么，与cookie的关系</title>
-      <link>http://wangdongxing.com/posts/analytics/session/</link>
+      <link>https://salmon4g.github.io/posts/analytics/session/</link>
       <pubDate>Wed, 23 Nov 2011 08:21:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/analytics/session/</guid>
+      <guid>https://salmon4g.github.io/posts/analytics/session/</guid>
       <description>session 的中文译名叫做“会话”，原意指有始有终的一系列动作消息，比如我们从拨通电话到挂掉电话的一系列过程可以称之为一个 session 。session 是表示一个持续连接的状态，一般指访客打开浏览器浏览一个网站开始到关闭浏览器（即浏览器的进程从开启到结束）。session 更多的是表示一个访问的过程，是网站分析的访问度量。
 session 可以追踪用户在网站上的活动，比如我们网上购物，我们是先将商品放入购物车，然后再一起支付。在我们整个过程中购物车一直扮演着临时存贮被选商品的角色，这就是 session 的作用，它可以用于用户身份认证，程序状态记录，页面之间参数传递等。session 的实现中采用 cookie 技术，session 会在客户端保存一个包含 session id（session 编号）的 cookie；在服务器端保存其他 session 变量，比如 session name 等等。当用户请求服务器时也把session id 一起发送到服务器，通过 session id 提取所保存在服务器端的变量，就能识别用户是谁了。
 session 失效时间分两方面：浏览器端和服务端。对于浏览器端而言，session 与访问进程直接相关，当浏览器被关闭时，session 也随之消失；而服务器端的 session 失效时间一般是人为设置的，目的是能定期地释放内存空间，减小服务器压力，一般的设置为当会话处于非活动状态达 20 或 30 分钟时清除该 session（多数网站分析工具默认时间均为 30 分钟），所以浏览器端和服务端的 session 并非同时消失的，session 的中断也并不一定意味着用户一定离开了该网站。
@@ -743,29 +743,29 @@ session 和 cookie 的关系 session 通过 cookie ，在客户端保存 session
     
     <item>
       <title>Hello World</title>
-      <link>http://wangdongxing.com/posts/life/hello/</link>
+      <link>https://salmon4g.github.io/posts/life/hello/</link>
       <pubDate>Sun, 13 Nov 2011 11:43:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/life/hello/</guid>
+      <guid>https://salmon4g.github.io/posts/life/hello/</guid>
       <description>Hello World
 Hello wangdongxing.com</description>
     </item>
     
     <item>
       <title>About</title>
-      <link>http://wangdongxing.com/about/</link>
+      <link>https://salmon4g.github.io/about/</link>
       <pubDate>Sun, 28 Aug 2011 11:43:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/about/</guid>
+      <guid>https://salmon4g.github.io/about/</guid>
       <description>关于我和我的博客</description>
     </item>
     
     <item>
       <title>网络广告收费模式</title>
-      <link>http://wangdongxing.com/posts/analytics/advertising-model/</link>
+      <link>https://salmon4g.github.io/posts/analytics/advertising-model/</link>
       <pubDate>Wed, 02 Mar 2011 08:59:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/analytics/advertising-model/</guid>
+      <guid>https://salmon4g.github.io/posts/analytics/advertising-model/</guid>
       <description>CPA (Cost-per-Action) 每次行动的费用，即根据每个访问者对网络广告所采取的行动收费的定价模式。对于用户行动有特别的定义，包括形成一次交易、获得一个注册用户、或者对网络广告的一次点击等。
 CPC (Cost-per-click) 每次点击的费用。根据广告被点击的次数收费。如关键词广告一般采用这种定价模式。
 CPM（Cost per Thousand Impressions） 每千次印象费用。广告条每显示1000次（印象）的费用。CPM是最常用的网络广告定价模式之一。
@@ -783,10 +783,10 @@ CPTM (Cost per Targeted Thousand Impressions) 经过定位的用户（如根据�
     
     <item>
       <title>Google Analytics 代码部署</title>
-      <link>http://wangdongxing.com/posts/analytics/ga/</link>
+      <link>https://salmon4g.github.io/posts/analytics/ga/</link>
       <pubDate>Tue, 01 Mar 2011 07:59:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/analytics/ga/</guid>
+      <guid>https://salmon4g.github.io/posts/analytics/ga/</guid>
       <description>Google Analytics 早在 2009 年就推出异步加载的方式了，不但保证了网页能更快的加载跟踪代码，对网站打开速度也不会产生影响了，下面是常见的部署 GATC（Google Analytics 监测代码）方式，可根据实际情况进行部署。
 方式一： 将 GATC 放到网站所有要监测的网页的 标签前。
 &amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;var _gaq = _gaq || [];_gaq.push([&#39;_setAccount&#39;, &#39;UA-XXXXX-X&#39;]);_gaq.push([&#39;_trackPageview&#39;]);(function() {var ga = document.createElement(&#39;script&#39;); ga.type = &#39;text/javascript&#39;; ga.async = true;ga.src = (&#39;https:&#39; == document.location.protocol ? &#39;https://ssl&#39; : &#39;http://www&#39;) + &#39;.google-analytics.com/ga.js&#39;;var s = document.getElementsByTagName(&#39;script&#39;)[0]; s.parentNode.insertBefore(ga, s);})();&amp;lt;/script&amp;gt;方式二： 将 ga.js 放到底部。
@@ -796,19 +796,19 @@ var _gaq = _gaq || [];_gaq.</description>
     
     <item>
       <title>SEO小记</title>
-      <link>http://wangdongxing.com/posts/life/seo/</link>
+      <link>https://salmon4g.github.io/posts/life/seo/</link>
       <pubDate>Sun, 26 Dec 2010 07:59:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/life/seo/</guid>
+      <guid>https://salmon4g.github.io/posts/life/seo/</guid>
       <description> 页面代码精简，包括 css,js，图片优化 控制信噪比，包括使用 ajax 异步加载无关内容 代码标记的使用：合理使用 h 标记，目标关键词特殊标记（加粗 or 斜体） 内容输出顺序：优先输出主要内容，后输出次要内容。这个得对搜索引擎爬行消噪原理有一个基本的了解才能做好这部分的分析。（例如：搜索引擎是通过哪些数据来判断正文部分的？DOM 元素长度 or 宽度占页面百分比，微格式，CSS 样式，内容） 合理的关键词：多用于长尾理论拓展出来的批量关键词优化。具体参考 zol 的内页，并且对这些关键词进行植入。 导出链接的控制：这个可以说简单也可以说复杂，具体要结合网站结构。你的目标收入群体页面是哪些？某些页面是否爬行已经过剩了？同时还有锚文本的处理。 </description>
     </item>
     
     <item>
       <title>htaccess实现URl标准化</title>
-      <link>http://wangdongxing.com/posts/analytics/url/</link>
+      <link>https://salmon4g.github.io/posts/analytics/url/</link>
       <pubDate>Mon, 06 Dec 2010 09:06:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/analytics/url/</guid>
+      <guid>https://salmon4g.github.io/posts/analytics/url/</guid>
       <description>URL标准化在SEO中是一个比较重要的环节，同时存在不同的网址版本，不但可能造成复制，还不能正确的集中权重。目前大多数网站，绑定域名都有带WWW和不带两个版本，甚至很多网站同时绑定多个域名。经过处理（跳转、CNAME……），对于访问者来说可能没有任何影响，看到的都是同样的内容；但对于搜索引擎，就无法确定哪一个网址是真正的主页。
 可控因素，网站内容链接应该保持同一个版本，比如整站中，返回首页的地址为固定的一个版本。但还有一个不可控的因素，就是别人链到你的网站，所使用的网址。很多自发链接或交换链接时，别人可能会省略掉WWW，或采用绑定的另一域名。外界因素不可控，我们可以从网站内部来控制。利用 Apache 的 .htaccess，使用301重定向，规范网址。
 新建一个空文件，文件名 .htaccess（如果网站根目录有就不用了），填入重定向规则后，上传到网站根目录。用301将不带 WWW 的域名重定向。

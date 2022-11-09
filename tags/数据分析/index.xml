@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>数据分析 on 往东行</title>
-    <link>http://wangdongxing.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/</link>
+    <link>https://salmon4g.github.io/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/</link>
     <description>Recent content in 数据分析 on 往东行</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 15 Oct 2016 10:59:00 +0000</lastBuildDate><atom:link href="http://wangdongxing.com/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 15 Oct 2016 10:59:00 +0000</lastBuildDate><atom:link href="https://salmon4g.github.io/tags/%E6%95%B0%E6%8D%AE%E5%88%86%E6%9E%90/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>读书笔记 | 精益数据分析</title>
-      <link>http://wangdongxing.com/posts/reading/lean-analytis/</link>
+      <link>https://salmon4g.github.io/posts/reading/lean-analytis/</link>
       <pubDate>Sat, 15 Oct 2016 10:59:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/reading/lean-analytis/</guid>
+      <guid>https://salmon4g.github.io/posts/reading/lean-analytis/</guid>
       <description>若是竞争对手先看了这本书，他会把你远远地甩在身后
 这句话是来自德国优秀营销自动化平台提供公司——HubSpot 的首席营销官迈克.沃尔佩，对《精益数据分析》这本书的赞誉。
 可能是职业病的原因，访问别人网站时喜欢查看网站埋点情况。会发现一些网站在数据采集上做的并不那么「精益」，如果数据采集仅能得 60 分，那么很难在数据分析中得 100 分。如《精益数据分析》作者所说，「精益创业」的风靡，几乎所有创业者都知道「敏捷开发」，知道「MVP, 最小可行性产品」，知道「构建-衡量-学习」流程，唯独数据成了精益创业里最不精益的工作。
@@ -31,10 +31,10 @@
     
     <item>
       <title>读书笔记 | 精益创业</title>
-      <link>http://wangdongxing.com/posts/reading/lean-startup/</link>
+      <link>https://salmon4g.github.io/posts/reading/lean-startup/</link>
       <pubDate>Mon, 02 May 2016 12:59:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/reading/lean-startup/</guid>
+      <guid>https://salmon4g.github.io/posts/reading/lean-startup/</guid>
       <description>上一次读《精益创业》时，好多创业公司还没有成立；这周再读《精益创业》时，这些公司已经倒闭了。
 相比传统行业，互联网行业的竞争更加激烈，「一步走错，满盘皆输」。一套科学、有效的「方法论」将成为在凶猛的竞争中立于不败之地的制胜宝典，《精益创业》这本书恰好就是把这套「方法论」告诉了我们。
 实验 在精益创业模式中，实验不仅只是理论上的探寻，也是第一项产品。产品的出现不能「拍脑袋」，而是要先问 4 个问题：

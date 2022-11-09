@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: http://wangdongxing.com/sitemap.xml
+Sitemap: https://salmon4g.github.io/sitemap.xml

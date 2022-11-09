@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>BI on 往东行</title>
-    <link>http://wangdongxing.com/tags/bi/</link>
+    <link>https://salmon4g.github.io/tags/bi/</link>
     <description>Recent content in BI on 往东行</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 19 Mar 2020 14:08:00 +0000</lastBuildDate><atom:link href="http://wangdongxing.com/tags/bi/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Mar 2020 14:08:00 +0000</lastBuildDate><atom:link href="https://salmon4g.github.io/tags/bi/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>优秀的商业智能和数据可视化产品：Power BI</title>
-      <link>http://wangdongxing.com/posts/pm/powerbi/</link>
+      <link>https://salmon4g.github.io/posts/pm/powerbi/</link>
       <pubDate>Thu, 19 Mar 2020 14:08:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/pm/powerbi/</guid>
+      <guid>https://salmon4g.github.io/posts/pm/powerbi/</guid>
       <description>Power BI 是 Microsoft 出品的一套商业智能体系（包括软件，工具，服务等），可用来构建从个人到中大型企业组织的商业智能平台，便于产品、运营、数据分析师等用户探索和分析数据。
 和 Tableau 一样，Power BI 也支持非常丰富的数据源，接入数据源后也可以快速实现数据可视化及分析探索；同时，Power BI 也在 Gartner 分析和商业智能魔力象限中被评为领导者，BI(商业智能)和可视化方面十分优秀。
 PowerBI运行逻辑 PowerBI 整体的运行逻辑是先把数据源按指标场景「筛选」数据、生成「度量值」后，把度量值作为生成图表的「上下文」及依据。
@@ -54,10 +54,10 @@ PowerBI运行逻辑 PowerBI 整体的运行逻辑是先把数据源按指标场�
     
     <item>
       <title>企业级开源可视化报表平台：Superset</title>
-      <link>http://wangdongxing.com/posts/pm/superset/</link>
+      <link>https://salmon4g.github.io/posts/pm/superset/</link>
       <pubDate>Sat, 14 Mar 2020 13:46:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/pm/superset/</guid>
+      <guid>https://salmon4g.github.io/posts/pm/superset/</guid>
       <description>Apache Superset 是一款由 Python 语言为主开发的企业级数据探索分析以及可视化的报表平台，由 Airbnb 开源，后面进入 Apache 软件基金会孵化。支持丰富的数据源和可视化图表样式，国内外已经有很多知名企业在使用了，如Airbnb、Netflix、Dropbox、Twitter、去哪儿、B站、豆瓣、腾讯音乐等。
 特征 开源，轻量级、高可用，使用维护简单且便于二次开发 可视化方面非常出色，报表、看板等表现力很好 操作便捷，拖拉拽简单操作便可无代码生成可视化图表 图表类型丰富，有时间序列、组合图、分布图、关系图、GEO地理位置、词汇云、等40多种图表类型 支持数据源丰富，包括Clickhouse、Presto、Durid、Kylin、Impala、Hive、MySQL、Oracle等30多种数据源 先进的SQL IDE，底层配合Clickhouse，自助SQL跑数神器 支持灵活添加自定义可视化插件的能力 实操 我请我同事帮忙写了一份入门教程，具体操作如下：
 1、添加database 2、添加Table 3、SQL查询(生成视图表) 4、绘图 5、设计Dashboad 6、共享Dashboard
@@ -68,10 +68,10 @@ PowerBI运行逻辑 PowerBI 整体的运行逻辑是先把数据源按指标场�
     
     <item>
       <title>商业智能和数据可视化领导者：Tableau</title>
-      <link>http://wangdongxing.com/posts/pm/tableau/</link>
+      <link>https://salmon4g.github.io/posts/pm/tableau/</link>
       <pubDate>Mon, 17 Dec 2018 08:33:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/pm/tableau/</guid>
+      <guid>https://salmon4g.github.io/posts/pm/tableau/</guid>
       <description>Tableau 成立于 2003 年，是斯坦福大学一个计算机科学项目的成果，该项目旨在改善分析流程并让人们能够通过可视化更轻松地使用数据。Tableau 连续 6 年在 Gartner 分析和商业智能魔力象限中被评为领导者，BI(商业智能)和可视化方面十分优秀。
 下面是我在公司(滴滴)负责 Tableau 平台的一些信息：
 产品：1人(我)，负责平台二次开发(权限系统打通、审批流程设计)，日常运营(问题答疑、权限管控、使用手册撰写、定期培训等) 开发：1-2人，负责定制开发，数仓维护、系统健康度管控 业务部门：整个滴滴公司10+业务部门使用 人数：日均用户数1800+ 使用产品：Tableau Desktop + Tableau Server，永久授权版 费用：几百万/年 Tableau主要产品线
@@ -99,10 +99,10 @@ Tableau看板的设计理念除了让制作者交互分析外，更鼓励查看�
     
     <item>
       <title>很贵的数据监测产品： Omniture</title>
-      <link>http://wangdongxing.com/posts/pm/omniture/</link>
+      <link>https://salmon4g.github.io/posts/pm/omniture/</link>
       <pubDate>Sat, 19 Sep 2015 10:30:00 +0000</pubDate>
       
-      <guid>http://wangdongxing.com/posts/pm/omniture/</guid>
+      <guid>https://salmon4g.github.io/posts/pm/omniture/</guid>
       <description>数据监测产品有很多，我使用过的，就有十几款，价格也是从免费到十几万人民币，到大几十万人民币，以及百万人民币不等。本文介绍的是最贵的数据监测产品：Omniture.
 Omniture SiteCatalyst，是美国优秀的网站分析系统。进入中国市场后，大家习惯称之为「Omniture」。2004 年 10 月，Omniture 被 Jupiter Research 评为「网站分析市场的绝对领导者」。2009 年 9 月，Adobe 公司宣布收购 Omniture，并将其命名为「Adobe Analytics」。
 (更名后的 Omniture) 在接触过的网站分析(监测)系统中，OM 是价格最贵的同时，功能也是最强大的。便于书写，以下用 OM 代指 Omniture, 即为 Adobe Analytics.
