@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>数据可视化 on 往东行</title>
-    <link>https://salmon4g.github.io/tags/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/</link>
+    <link>https://salmon3g.github.io/tags/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/</link>
     <description>Recent content in 数据可视化 on 往东行</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Thu, 19 Mar 2020 14:08:00 +0000</lastBuildDate><atom:link href="https://salmon4g.github.io/tags/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 19 Mar 2020 14:08:00 +0000</lastBuildDate><atom:link href="https://salmon3g.github.io/tags/%E6%95%B0%E6%8D%AE%E5%8F%AF%E8%A7%86%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>优秀的商业智能和数据可视化产品：Power BI</title>
-      <link>https://salmon4g.github.io/posts/pm/powerbi/</link>
+      <link>https://salmon3g.github.io/posts/pm/powerbi/</link>
       <pubDate>Thu, 19 Mar 2020 14:08:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/pm/powerbi/</guid>
+      <guid>https://salmon3g.github.io/posts/pm/powerbi/</guid>
       <description>Power BI 是 Microsoft 出品的一套商业智能体系（包括软件，工具，服务等），可用来构建从个人到中大型企业组织的商业智能平台，便于产品、运营、数据分析师等用户探索和分析数据。
 和 Tableau 一样，Power BI 也支持非常丰富的数据源，接入数据源后也可以快速实现数据可视化及分析探索；同时，Power BI 也在 Gartner 分析和商业智能魔力象限中被评为领导者，BI(商业智能)和可视化方面十分优秀。
 PowerBI运行逻辑 PowerBI 整体的运行逻辑是先把数据源按指标场景「筛选」数据、生成「度量值」后，把度量值作为生成图表的「上下文」及依据。
@@ -54,10 +54,10 @@ PowerBI运行逻辑 PowerBI 整体的运行逻辑是先把数据源按指标场�
     
     <item>
       <title>商业智能和数据可视化领导者：Tableau</title>
-      <link>https://salmon4g.github.io/posts/pm/tableau/</link>
+      <link>https://salmon3g.github.io/posts/pm/tableau/</link>
       <pubDate>Mon, 17 Dec 2018 08:33:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/pm/tableau/</guid>
+      <guid>https://salmon3g.github.io/posts/pm/tableau/</guid>
       <description>Tableau 成立于 2003 年，是斯坦福大学一个计算机科学项目的成果，该项目旨在改善分析流程并让人们能够通过可视化更轻松地使用数据。Tableau 连续 6 年在 Gartner 分析和商业智能魔力象限中被评为领导者，BI(商业智能)和可视化方面十分优秀。
 下面是我在公司(滴滴)负责 Tableau 平台的一些信息：
 产品：1人(我)，负责平台二次开发(权限系统打通、审批流程设计)，日常运营(问题答疑、权限管控、使用手册撰写、定期培训等) 开发：1-2人，负责定制开发，数仓维护、系统健康度管控 业务部门：整个滴滴公司10+业务部门使用 人数：日均用户数1800+ 使用产品：Tableau Desktop + Tableau Server，永久授权版 费用：几百万/年 Tableau主要产品线
@@ -85,10 +85,10 @@ Tableau看板的设计理念除了让制作者交互分析外，更鼓励查看�
     
     <item>
       <title>数据可视化产品：BDP</title>
-      <link>https://salmon4g.github.io/posts/pm/bdp/</link>
+      <link>https://salmon3g.github.io/posts/pm/bdp/</link>
       <pubDate>Sat, 15 Jul 2017 12:20:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/pm/bdp/</guid>
+      <guid>https://salmon3g.github.io/posts/pm/bdp/</guid>
       <description>数据相关的职位，不论是数据分析师还是数据产品经理，都离不开和数据报表打交道。小到一份数据报告，大到一个 BI (Business Intelligence 商业智能)产品，都和数据可视化息息相关。今天和大家分享一个优秀的数据可视化产品 —— BDP. BDP 是北京海致公司出品的商业智能产品，与国外的 Tableau、Qlik，国内的永宏 BI 类似。BDP 去年我就有在使用，此次介绍主要从支持的「支持的数据类型」、「数据处理能力」、「视觉、交互、操作」三方面介绍。
 支持的数据类型 作为一个 BI 产品，能支持丰富的数据类型是很重要的。除了支持上传 Excel、MySQL、Oracle、SQLServer、Hive 等主流的数据源外，BDP 还支持网络营销数据、在线客户数据、网站监测数据及一些公共数据。 （支持的数据源）
 网络营销数据 BDP 支持的很丰富，如百度搜索推广、搜狗搜索推广、360 搜索推广、神马搜索推广，百度网盟推广、搜狗网盟推广、360 移动推广，现在又增加了微信公众号平台、微信小程序、百度指数、今日头条推广、网易新闻推广和优酷土豆 DSP 等平台。
@@ -106,10 +106,10 @@ BDP 官网描述的「亿级数据秒级处理」我没有试过，不过我把�
     
     <item>
       <title>数据可视化之热力图</title>
-      <link>https://salmon4g.github.io/posts/pm/heat-map/</link>
+      <link>https://salmon3g.github.io/posts/pm/heat-map/</link>
       <pubDate>Sat, 15 Aug 2015 12:28:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/pm/heat-map/</guid>
+      <guid>https://salmon3g.github.io/posts/pm/heat-map/</guid>
       <description>热力图也是一种数据可视化，通过热力图可以直观展现数据分布。热力图几年前在网页中应用比较多，现在随着大数据时代的到来，百度地图、高德地图也推出了人群分布热力图，直观反映区域地理位置的人群拥挤情况。
 网页中的热力图通常可以通过以下两方面来指导网页优化、广告位优化：
 页面哪部分更能吸引访问者 页面哪些非超链接被访问者误认为是超链接而点击 热力图原理 前端JS记录鼠标停留在页面的坐标的数据，并将数据以日志形式存储到服务器中，程序拿到这些数据并进行图形渲染，最后通过设置阀值在页面呈现热力图效果。

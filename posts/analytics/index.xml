@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>分析 on 往东行</title>
-    <link>https://salmon4g.github.io/posts/analytics/</link>
+    <link>https://salmon3g.github.io/posts/analytics/</link>
     <description>Recent content in 分析 on 往东行</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 13 Dec 2014 10:59:00 +0000</lastBuildDate><atom:link href="https://salmon4g.github.io/posts/analytics/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 13 Dec 2014 10:59:00 +0000</lastBuildDate><atom:link href="https://salmon3g.github.io/posts/analytics/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>数据分析师的技能树</title>
-      <link>https://salmon4g.github.io/posts/analytics/analyst-skill-tree/</link>
+      <link>https://salmon3g.github.io/posts/analytics/analyst-skill-tree/</link>
       <pubDate>Sat, 13 Dec 2014 10:59:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/analytics/analyst-skill-tree/</guid>
+      <guid>https://salmon3g.github.io/posts/analytics/analyst-skill-tree/</guid>
       <description>如今流量获取成本不断提高，越来越多的企业从粗放的运营模式转变为精细化运营，企业对员工素质的要求也越来越高。设计师能做数据分析，产品经理能做数据分析，运营也能做数据分析，甚至 CEO 也自己做起了数据分析。
 数据分析师想要提高自己的价值，就需要不断提高自己的「技能树」。 注：本文所述的数据分析指的是网站数据分析
 0、准备阶段 数据分析离不开使用 Excel，熟练掌握 Excel 常用操作是必须的。
@@ -26,10 +26,10 @@
     
     <item>
       <title>R语言一元线性回归模型</title>
-      <link>https://salmon4g.github.io/posts/analytics/simple-linear-regression/</link>
+      <link>https://salmon3g.github.io/posts/analytics/simple-linear-regression/</link>
       <pubDate>Tue, 10 Dec 2013 10:13:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/analytics/simple-linear-regression/</guid>
+      <guid>https://salmon3g.github.io/posts/analytics/simple-linear-regression/</guid>
       <description>一元线性回归讨论的是一个因变量 Y 与有一个自变量 X 之间的关系，一元线性回归模型也叫一元线性方程。步骤如下：
 1、数据准备
 x&amp;lt;-c(0.10,0.11,0.12,0.13,0.14,0.15,0.16,0.17,0.18,0.20,0.21,0.23)y&amp;lt;-c(42.0,43.5,45.0,45.5,45.0,47.5,49.0,53.0,50.0,55.0,55.0,60.0)2、画图
@@ -44,10 +44,10 @@ Y = 28.493 + 130.835X附：在 R 语言中，与线性模型有关的函数有 
     
     <item>
       <title>4行Python下载经济学人图表</title>
-      <link>https://salmon4g.github.io/posts/analytics/download/</link>
+      <link>https://salmon3g.github.io/posts/analytics/download/</link>
       <pubDate>Mon, 14 Oct 2013 10:59:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/analytics/download/</guid>
+      <guid>https://salmon3g.github.io/posts/analytics/download/</guid>
       <description>经常做图表的同学应该知道经济学人，经济学人的图表简洁、专业值得学习。经济学人的图表是每周一期，大概有五十多期，可以借助 Python 下载。
 思路：
 以一期为基础，将其 URL 按照日期形式 +/-7 拉出所有的 URL 并保存到 txt 中 用 Python 读取 txt 中的 URL 地址并下载 Python 代码如下：
@@ -56,10 +56,10 @@ import urllib with open(&amp;#39;d://url.txt&amp;#39;, &amp;#39;r&amp;#39;) as f
     
     <item>
       <title>级联战略/瀑布型战略</title>
-      <link>https://salmon4g.github.io/posts/analytics/cascade-strategy/</link>
+      <link>https://salmon3g.github.io/posts/analytics/cascade-strategy/</link>
       <pubDate>Fri, 20 Sep 2013 10:08:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/analytics/cascade-strategy/</guid>
+      <guid>https://salmon3g.github.io/posts/analytics/cascade-strategy/</guid>
       <description>有些公司采用级联战略，即高级别的公司目标通过各个区域，部门和团队的每个单位自上而下的解读，并且分拆目标到各个独立的领域。原则上，这是级联战略基本的工作模式，但正如我们已经看到的空气三明治（空气三明治战略在顶层有着清晰的目标和未来的方向，在底层也辅有每日的行动，而中间去什么都没有——既没有肉一样的关键性决策来连接这两层，也没有丰富难爵的中间层填充物来调整公司内新的方向与新的行动）的中间部分通常被假设、暗示、不清晰或者缺失，特别是涉及在线业务部分时，级联战略有时感觉更像是一场企业混战，此外，除了目标和战略措施的脱节了外，你还可以发现其他关键要素的差距，如关键绩效指标（KPI）、目标、范围和优先级。
 级联战略方针的危险之一在于，当不同的团队在优化工作中太孤立时，会不知不觉违背或抵消其他团队的努力成果。由于每个独立团队（电子邮件，搜索引擎优化，付费搜索，内容团队），仅仅理解和执行整体在线战略的一部分，他们往往没有考虑到他们的努力对其他措施的影响，也没有将自己的成功与网站整体目标相结合。其结果就是，各种在线措施的整体效果远小于各部分效果的总和，而网站分析师在中间起到了举足轻重的作用，可以把各个部门的努力集中到统一的中心目标，并且帮忙优化整个在线渠道，而不仅仅是各个孤立的部分。
 无论你的公司是否已经实施了级联战略，在公司级别的总战略中将不同的业务目标、优先事项和措施于不同级别的战略映射起来是值得做的。级联战略框架将帮助你更好地了解在线评估效果。当你专注于更好地理解在线战略时，注意图中展示的五个关键层次，以及下面列表中的明细。
@@ -78,10 +78,10 @@ import urllib with open(&amp;#39;d://url.txt&amp;#39;, &amp;#39;r&amp;#39;) as f
     
     <item>
       <title>分析师的商业敏感度</title>
-      <link>https://salmon4g.github.io/posts/analytics/analyst-business-acumen/</link>
+      <link>https://salmon3g.github.io/posts/analytics/analyst-business-acumen/</link>
       <pubDate>Wed, 18 Sep 2013 09:59:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/analytics/analyst-business-acumen/</guid>
+      <guid>https://salmon3g.github.io/posts/analytics/analyst-business-acumen/</guid>
       <description>一个网站分析师需要的不仅仅是分析能力，更重要的是对业务的理解。没有足够的商业敏感度，网站分析师的建议是没有可操作性的。分析师需要身处复杂和真实的商业环境中，这样说提供建议才会与业务相关，才具有实践意义。值得注意的是，分析师需要掌握以下业务相关的属性。
 全局视野 专注于每日日常分析的分析师会面临一个很大的危险，就是容易迷失在每日的细节数据中。实际上你需要同时关注细节和全局。成功的分析师会对业务的运营和盈利点就着敏锐的理解——无论是线上还是线下。通过对商业行为的透析，他们可以将战术级别的建议融入公司的战略目标中，主动优化相关的业务。他们的深刻见解和潜在可执行策略能够与高级主管（对公司的全局发展产生影响的关键人物）产生共鸣。
 以用户为中心 在用户联系和社交经济蓬勃发展的今天，维系用户的关系变得至关重要，因此需要将“以用户为中心”作为基本的做事准则。这个时候，就要求网站分析师能够站在用户的角度来思考。他们通过定量和定性的数据研究用户行为，转化以及用户需求，并以此提升业务的价值。他们能够区分用户的要求和真实的需求，从而让产品能够更加契合用户的内心。
@@ -91,10 +91,10 @@ import urllib with open(&amp;#39;d://url.txt&amp;#39;, &amp;#39;r&amp;#39;) as f
     
     <item>
       <title>辨别虚假流量</title>
-      <link>https://salmon4g.github.io/posts/analytics/identify-false-traffic/</link>
+      <link>https://salmon3g.github.io/posts/analytics/identify-false-traffic/</link>
       <pubDate>Fri, 08 Feb 2013 09:06:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/analytics/identify-false-traffic/</guid>
+      <guid>https://salmon3g.github.io/posts/analytics/identify-false-traffic/</guid>
       <description>为网站导入更多流量，会和多种渠道合作，不排除有些渠道有作弊行为，为网站导入很多虚假流量。辨别虚假流量步骤大致如下：
 1、高级细分分隔流量。使用高级细分将这部分广告流量和其他流量进行分隔，在其他报告中可以选择该细分。
 2、流量产生时间。按小时或者天粒度查看网站访问流量分布。
@@ -112,10 +112,10 @@ import urllib with open(&amp;#39;d://url.txt&amp;#39;, &amp;#39;r&amp;#39;) as f
     
     <item>
       <title>GA电子商务追踪设置</title>
-      <link>https://salmon4g.github.io/posts/analytics/tracking-ecommerce/</link>
+      <link>https://salmon3g.github.io/posts/analytics/tracking-ecommerce/</link>
       <pubDate>Sat, 07 Jul 2012 10:10:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/analytics/tracking-ecommerce/</guid>
+      <guid>https://salmon3g.github.io/posts/analytics/tracking-ecommerce/</guid>
       <description>一、启用电子商务追踪
 在 Google Analytics 配置文件中启用电子商务追踪功能。
 二、定制电子商务追踪代码
@@ -125,10 +125,10 @@ import urllib with open(&amp;#39;d://url.txt&amp;#39;, &amp;#39;r&amp;#39;) as f
     
     <item>
       <title>GA虚拟页面和事件追踪</title>
-      <link>https://salmon4g.github.io/posts/analytics/virtual-page-event-track/</link>
+      <link>https://salmon3g.github.io/posts/analytics/virtual-page-event-track/</link>
       <pubDate>Sun, 13 May 2012 10:59:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/analytics/virtual-page-event-track/</guid>
+      <guid>https://salmon3g.github.io/posts/analytics/virtual-page-event-track/</guid>
       <description>有时，我们需要监测一些不能产生页面浏览的行为，比如点击友情链接跳转到其他网站、点击下载网站附件以及点击 Flash 等内容。Google Analytics 监测类似这些内容常用的统计方法是虚拟页面和事件追踪。
 1、Google Analytics 虚拟页面
 虚拟页面顾名思义就是制作一个并非真实的页面，就用到的 Google Analytics 的方法 _trackPageview()，_trackPageview() 方法会将点击数据发送到服务器，并在报告中展示。虚拟页面并非真是存在，所以在配置过程中要做好归类，便于识别。
@@ -146,10 +146,10 @@ _gaq.push([&#39;_trackEvent&#39;, &#39;Videos&#39;, &#39;Video Load Time&#39;, &
     
     <item>
       <title>GA跨域追踪</title>
-      <link>https://salmon4g.github.io/posts/analytics/cross-domain-tracking/</link>
+      <link>https://salmon3g.github.io/posts/analytics/cross-domain-tracking/</link>
       <pubDate>Sat, 03 Mar 2012 08:23:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/analytics/cross-domain-tracking/</guid>
+      <guid>https://salmon3g.github.io/posts/analytics/cross-domain-tracking/</guid>
       <description>Google Analytics 跨域追踪设置用到四个方法有：_setDomainName()、_setAllowLinker()、_link()和 _linkByPost()。_setDomainName() 用来设置 GATC cookies 的域名名字，下面是允许跨域追踪的设置，如果不允许跨域可设置为_gaq.push([&amp;rsquo;_setDomainName&amp;rsquo;, &amp;rsquo;none&amp;rsquo;]); 。_setAllowLinker() 是启用跨域追踪的链接功能标志的一部分，默认设置为 false 链接是被禁用的，_link(), _linkByPost() 配合_setAllowLinker()使用。详细设置如下：
 跨域追踪主域名及其子域名
 在 _gaq.push([&amp;rsquo;_trackPageview&amp;rsquo;]); 前加 _gaq.push([&amp;rsquo;_setDomainName&amp;rsquo;, &amp;rsquo;example.com&amp;rsquo;]);即可，如下：
@@ -163,10 +163,10 @@ B 中设置追踪代码：
     
     <item>
       <title>GA流量来源分类及覆盖规则</title>
-      <link>https://salmon4g.github.io/posts/analytics/source-overwrite/</link>
+      <link>https://salmon3g.github.io/posts/analytics/source-overwrite/</link>
       <pubDate>Thu, 19 Jan 2012 11:31:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/analytics/source-overwrite/</guid>
+      <guid>https://salmon3g.github.io/posts/analytics/source-overwrite/</guid>
       <description>Google Analytics 中对流量来源各渠道进行了分类，同时各类流量来源优先级也不相同，也就存在各流量来源渠道的覆盖规则。Google Analytics 流量来源渠道分类如下：
 一、市场投放（Campaigns）
 多指广告活动流量，最常见的是 PPC 广告，Google 的 Adwords（无需单独标记），百度的关键词推广，还可以对其他广告进行标记（标记工具：URL Builder）。
@@ -182,10 +182,10 @@ Google Analytics 流量覆盖规则 Google Analytics 不同渠道的优先级不
     
     <item>
       <title>Google Analytics cookie</title>
-      <link>https://salmon4g.github.io/posts/analytics/ga-cookie/</link>
+      <link>https://salmon3g.github.io/posts/analytics/ga-cookie/</link>
       <pubDate>Mon, 02 Jan 2012 09:21:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/analytics/ga-cookie/</guid>
+      <guid>https://salmon3g.github.io/posts/analytics/ga-cookie/</guid>
       <description>Google Analytics cookie 是访问添加过 Google Analytics 监测的网站时生成的， Google Analytics cookie 最为常见的有四个：__utma、__utmb、__utmc 和 __utmz。
 __utma：默认有效期两年，用来识别访问者和访问次数。包含 6 个字段，从左到右分别代表域哈希值、访问者 ID（唯一）、首次访问时间、上次访问时间、本次访问开始时间和访问次数。
 （注：访问时间数值为 Unix 系统时间，从1970年1月1日0点0分0秒开始计算）
@@ -197,10 +197,10 @@ utmcsr = sourceutmcmd = mediumutmccn = campaign nameutmctr = campaign keyword
     
     <item>
       <title>第一方cookie和第三方cookie</title>
-      <link>https://salmon4g.github.io/posts/analytics/cookie/</link>
+      <link>https://salmon3g.github.io/posts/analytics/cookie/</link>
       <pubDate>Fri, 25 Nov 2011 10:59:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/analytics/cookie/</guid>
+      <guid>https://salmon3g.github.io/posts/analytics/cookie/</guid>
       <description>第一方cookie和第三方cookie都是相对当前访问的网站来说的，比如我访问了wangdongxing.com我的博客，而新浪（sina.com.cn）在我的博客中投放了一个广告（尽管不可能），并加入了它的数据监测代码，那么在我的电脑本地通常会产生两个cookie，cookie中记录如果是wangdongxing.com，那么这个cookie就是第一方cookie，如果记录的是sina.com.cn，那么这个cookie就是第三方cookie。
 相反，如果我的博客（wangdongxing.com）在新浪上投放了一个广告（也有点不可能:P），并加入了数据监测代码，那么你在浏览新浪（sina.com.cn）的时候，在你的电脑本地生成两个cookie，如果cookie中记录的域名是sina.com.cn，那么这个cookie就是第一方cookie，如果是wangdongxing.com那么这个cookie就是第三方cookie。
 第一方cookie和第三方cookie的最大区别就是针对不同人群有不同喜好，对应从事网站分析以及互联网监测者来说，是倾向第三方cookie，因为可以用它监测跨网站的访问行为；但是对于网站访问者了来说是不喜欢自己的浏览行为被其它网站监测，会考虑自己隐私是否被泄漏等。
@@ -209,10 +209,10 @@ utmcsr = sourceutmcmd = mediumutmccn = campaign nameutmctr = campaign keyword
     
     <item>
       <title>session是什么，与cookie的关系</title>
-      <link>https://salmon4g.github.io/posts/analytics/session/</link>
+      <link>https://salmon3g.github.io/posts/analytics/session/</link>
       <pubDate>Wed, 23 Nov 2011 08:21:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/analytics/session/</guid>
+      <guid>https://salmon3g.github.io/posts/analytics/session/</guid>
       <description>session 的中文译名叫做“会话”，原意指有始有终的一系列动作消息，比如我们从拨通电话到挂掉电话的一系列过程可以称之为一个 session 。session 是表示一个持续连接的状态，一般指访客打开浏览器浏览一个网站开始到关闭浏览器（即浏览器的进程从开启到结束）。session 更多的是表示一个访问的过程，是网站分析的访问度量。
 session 可以追踪用户在网站上的活动，比如我们网上购物，我们是先将商品放入购物车，然后再一起支付。在我们整个过程中购物车一直扮演着临时存贮被选商品的角色，这就是 session 的作用，它可以用于用户身份认证，程序状态记录，页面之间参数传递等。session 的实现中采用 cookie 技术，session 会在客户端保存一个包含 session id（session 编号）的 cookie；在服务器端保存其他 session 变量，比如 session name 等等。当用户请求服务器时也把session id 一起发送到服务器，通过 session id 提取所保存在服务器端的变量，就能识别用户是谁了。
 session 失效时间分两方面：浏览器端和服务端。对于浏览器端而言，session 与访问进程直接相关，当浏览器被关闭时，session 也随之消失；而服务器端的 session 失效时间一般是人为设置的，目的是能定期地释放内存空间，减小服务器压力，一般的设置为当会话处于非活动状态达 20 或 30 分钟时清除该 session（多数网站分析工具默认时间均为 30 分钟），所以浏览器端和服务端的 session 并非同时消失的，session 的中断也并不一定意味着用户一定离开了该网站。
@@ -221,10 +221,10 @@ session 和 cookie 的关系 session 通过 cookie ，在客户端保存 session
     
     <item>
       <title>网络广告收费模式</title>
-      <link>https://salmon4g.github.io/posts/analytics/advertising-model/</link>
+      <link>https://salmon3g.github.io/posts/analytics/advertising-model/</link>
       <pubDate>Wed, 02 Mar 2011 08:59:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/analytics/advertising-model/</guid>
+      <guid>https://salmon3g.github.io/posts/analytics/advertising-model/</guid>
       <description>CPA (Cost-per-Action) 每次行动的费用，即根据每个访问者对网络广告所采取的行动收费的定价模式。对于用户行动有特别的定义，包括形成一次交易、获得一个注册用户、或者对网络广告的一次点击等。
 CPC (Cost-per-click) 每次点击的费用。根据广告被点击的次数收费。如关键词广告一般采用这种定价模式。
 CPM（Cost per Thousand Impressions） 每千次印象费用。广告条每显示1000次（印象）的费用。CPM是最常用的网络广告定价模式之一。
@@ -242,10 +242,10 @@ CPTM (Cost per Targeted Thousand Impressions) 经过定位的用户（如根据�
     
     <item>
       <title>Google Analytics 代码部署</title>
-      <link>https://salmon4g.github.io/posts/analytics/ga/</link>
+      <link>https://salmon3g.github.io/posts/analytics/ga/</link>
       <pubDate>Tue, 01 Mar 2011 07:59:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/analytics/ga/</guid>
+      <guid>https://salmon3g.github.io/posts/analytics/ga/</guid>
       <description>Google Analytics 早在 2009 年就推出异步加载的方式了，不但保证了网页能更快的加载跟踪代码，对网站打开速度也不会产生影响了，下面是常见的部署 GATC（Google Analytics 监测代码）方式，可根据实际情况进行部署。
 方式一： 将 GATC 放到网站所有要监测的网页的 标签前。
 &amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;var _gaq = _gaq || [];_gaq.push([&#39;_setAccount&#39;, &#39;UA-XXXXX-X&#39;]);_gaq.push([&#39;_trackPageview&#39;]);(function() {var ga = document.createElement(&#39;script&#39;); ga.type = &#39;text/javascript&#39;; ga.async = true;ga.src = (&#39;https:&#39; == document.location.protocol ? &#39;https://ssl&#39; : &#39;http://www&#39;) + &#39;.google-analytics.com/ga.js&#39;;var s = document.getElementsByTagName(&#39;script&#39;)[0]; s.parentNode.insertBefore(ga, s);})();&amp;lt;/script&amp;gt;方式二： 将 ga.js 放到底部。
@@ -255,10 +255,10 @@ var _gaq = _gaq || [];_gaq.</description>
     
     <item>
       <title>htaccess实现URl标准化</title>
-      <link>https://salmon4g.github.io/posts/analytics/url/</link>
+      <link>https://salmon3g.github.io/posts/analytics/url/</link>
       <pubDate>Mon, 06 Dec 2010 09:06:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/analytics/url/</guid>
+      <guid>https://salmon3g.github.io/posts/analytics/url/</guid>
       <description>URL标准化在SEO中是一个比较重要的环节，同时存在不同的网址版本，不但可能造成复制，还不能正确的集中权重。目前大多数网站，绑定域名都有带WWW和不带两个版本，甚至很多网站同时绑定多个域名。经过处理（跳转、CNAME……），对于访问者来说可能没有任何影响，看到的都是同样的内容；但对于搜索引擎，就无法确定哪一个网址是真正的主页。
 可控因素，网站内容链接应该保持同一个版本，比如整站中，返回首页的地址为固定的一个版本。但还有一个不可控的因素，就是别人链到你的网站，所使用的网址。很多自发链接或交换链接时，别人可能会省略掉WWW，或采用绑定的另一域名。外界因素不可控，我们可以从网站内部来控制。利用 Apache 的 .htaccess，使用301重定向，规范网址。
 新建一个空文件，文件名 .htaccess（如果网站根目录有就不用了），填入重定向规则后，上传到网站根目录。用301将不带 WWW 的域名重定向。

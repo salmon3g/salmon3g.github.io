@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>reading on 往东行</title>
-    <link>https://salmon4g.github.io/categories/reading/</link>
+    <link>https://salmon3g.github.io/categories/reading/</link>
     <description>Recent content in reading on 往东行</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sat, 21 Dec 2019 10:03:00 +0000</lastBuildDate><atom:link href="https://salmon4g.github.io/categories/reading/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 21 Dec 2019 10:03:00 +0000</lastBuildDate><atom:link href="https://salmon3g.github.io/categories/reading/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>读书笔记 | 俞军产品方法论</title>
-      <link>https://salmon4g.github.io/posts/reading/product-methodology/</link>
+      <link>https://salmon3g.github.io/posts/reading/product-methodology/</link>
       <pubDate>Sat, 21 Dec 2019 10:03:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/reading/product-methodology/</guid>
+      <guid>https://salmon3g.github.io/posts/reading/product-methodology/</guid>
       <description>俞军老师的《俞军产品方法论》这本书我读了两遍，书中除了详细介绍了理解企业、用户、产品、交易、决策等产品经理必备的知识外，还比较全面的介绍了产品经理岗位需要掌握和了解的底层知识，如经济学、心理学、组织行为等。虽然没有全面展开，却能起到引导作用，这在其他产品经理相关的书籍中很少见到。
 推荐从事产品经理相关的职业的同学阅读此书。
 企业 用户 产品 企业、用户与产品关系 用户价值和企业商业价值的关系是：企业以产品为媒介，与用户 进行价值交换，达成创造商业价值的目的。
@@ -47,10 +47,10 @@ A 类：有深度思考能力或超常同理心。深度思考是指习惯思考
     
     <item>
       <title>读书笔记 | 首席增长官</title>
-      <link>https://salmon4g.github.io/posts/reading/chief-growth-officer/</link>
+      <link>https://salmon3g.github.io/posts/reading/chief-growth-officer/</link>
       <pubDate>Wed, 15 Nov 2017 12:02:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/reading/chief-growth-officer/</guid>
+      <guid>https://salmon3g.github.io/posts/reading/chief-growth-officer/</guid>
       <description>感谢 GrowingIO 送来《首席增长官》一书。
 互联网用户增长速度放缓导致人口红利衰减、流量红利萎缩，企业也从粗犷的运营方式改变为精细化运营。而数据，则是驱动精细化运营的关键。正像彼得德鲁克多所说：如果你不能衡量，就无法增长(If you can’t measure it, you can’t improve it)。
 如何做到数据驱动运营、数据驱动增长，《首席增长官》这本书给了一套系统化指南。书的作者张溪梦(Simon)，GrowingIO 创始人，有着丰富的数据分析经验，亲手建立 LinkedIn 将近百人商业分析和数据科学团队，支撑了 LinkedIn 公司所有与营收相关业务的高速增长。
@@ -69,10 +69,10 @@ A 类：有深度思考能力或超常同理心。深度思考是指习惯思考
     
     <item>
       <title>书单 | 数据分析师快速成长10本书</title>
-      <link>https://salmon4g.github.io/posts/reading/analyst-books/</link>
+      <link>https://salmon3g.github.io/posts/reading/analyst-books/</link>
       <pubDate>Sat, 11 Feb 2017 11:59:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/reading/analyst-books/</guid>
+      <guid>https://salmon3g.github.io/posts/reading/analyst-books/</guid>
       <description>好朋友 Steven 艺术生出身，做了四五年 UI 和交互后转行做了产品经理，数据分析能力较弱，之前让我推荐过数据分析相关的书籍；最近也有数据分析师朋友让我推荐工作相关的书籍。数据产品经理相关书籍正在整理中，今天推荐的 10 本书主要是面向数据分析师，产品经理及其他职位朋友可以选择性阅读。
 无论是产品经理、数据分析师，还是数据产品经理，数据分析能力都非常重要。我刚好在做数据产品经理前做过两年多数据分析师，也读过一些数据分析相关的书，在此整理并统一做个推荐。
 第 1 本属于必备基础 第 2 本激发兴趣和视野 第 3、4 本属于工具使用 第 5、6 本属于工作基础及思路 第 7 本属于「高段位」 第 8 本属于深入学习 第 9 本属于数据展示 第 10 本偏技术
@@ -92,10 +92,10 @@ A 类：有深度思考能力或超常同理心。深度思考是指习惯思考
     
     <item>
       <title>读书笔记 | 精益数据分析</title>
-      <link>https://salmon4g.github.io/posts/reading/lean-analytis/</link>
+      <link>https://salmon3g.github.io/posts/reading/lean-analytis/</link>
       <pubDate>Sat, 15 Oct 2016 10:59:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/reading/lean-analytis/</guid>
+      <guid>https://salmon3g.github.io/posts/reading/lean-analytis/</guid>
       <description>若是竞争对手先看了这本书，他会把你远远地甩在身后
 这句话是来自德国优秀营销自动化平台提供公司——HubSpot 的首席营销官迈克.沃尔佩，对《精益数据分析》这本书的赞誉。
 可能是职业病的原因，访问别人网站时喜欢查看网站埋点情况。会发现一些网站在数据采集上做的并不那么「精益」，如果数据采集仅能得 60 分，那么很难在数据分析中得 100 分。如《精益数据分析》作者所说，「精益创业」的风靡，几乎所有创业者都知道「敏捷开发」，知道「MVP, 最小可行性产品」，知道「构建-衡量-学习」流程，唯独数据成了精益创业里最不精益的工作。
@@ -114,10 +114,10 @@ A 类：有深度思考能力或超常同理心。深度思考是指习惯思考
     
     <item>
       <title>读书笔记 | 精益创业</title>
-      <link>https://salmon4g.github.io/posts/reading/lean-startup/</link>
+      <link>https://salmon3g.github.io/posts/reading/lean-startup/</link>
       <pubDate>Mon, 02 May 2016 12:59:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/reading/lean-startup/</guid>
+      <guid>https://salmon3g.github.io/posts/reading/lean-startup/</guid>
       <description>上一次读《精益创业》时，好多创业公司还没有成立；这周再读《精益创业》时，这些公司已经倒闭了。
 相比传统行业，互联网行业的竞争更加激烈，「一步走错，满盘皆输」。一套科学、有效的「方法论」将成为在凶猛的竞争中立于不败之地的制胜宝典，《精益创业》这本书恰好就是把这套「方法论」告诉了我们。
 实验 在精益创业模式中，实验不仅只是理论上的探寻，也是第一项产品。产品的出现不能「拍脑袋」，而是要先问 4 个问题：
@@ -160,10 +160,10 @@ A 类：有深度思考能力或超常同理心。深度思考是指习惯思考
     
     <item>
       <title>读书笔记 | 如何阅读一本书</title>
-      <link>https://salmon4g.github.io/posts/reading/how-to-read-a-book/</link>
+      <link>https://salmon3g.github.io/posts/reading/how-to-read-a-book/</link>
       <pubDate>Wed, 09 Dec 2015 11:24:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/reading/how-to-read-a-book/</guid>
+      <guid>https://salmon3g.github.io/posts/reading/how-to-read-a-book/</guid>
       <description>《如何阅读一本书》被誉为一本伟大的阅读指导类书籍，在该领域内能达到如此高度的书很少。作者提倡主动阅读，主动阅读的探索能力更强，收获也就越多。
 主动阅读一本书时，要提出四个问题：
 整体来说，这本书到底在谈什么？ 作者细部说了什么，怎么说的？ 这本书说的有道理吗？是全部还是部分有？ 这本书跟你有什么关系？ 阅读的四种层次（四种阅读方法）：基础阅读. 检视阅读. 分类阅读和主题阅读。
@@ -190,10 +190,10 @@ B、主题阅读：阅读所有第一阶段收集到的书籍
     
     <item>
       <title>读书笔记 | 数据之巅</title>
-      <link>https://salmon4g.github.io/posts/reading/datatop/</link>
+      <link>https://salmon3g.github.io/posts/reading/datatop/</link>
       <pubDate>Fri, 20 Nov 2015 11:21:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/reading/datatop/</guid>
+      <guid>https://salmon3g.github.io/posts/reading/datatop/</guid>
       <description>《数据之巅》这本书是 VP 推荐给我们看的，当时各种原因一直没看。最近突然想起，用了不到一周的时间看完了。
 《数据之巅》的作者涂子沛，现任阿里巴巴副总裁。2012 年写过一本《大数据》，社会对《大数据》这本书的评价很高，国务院副总理汪洋在广东省财政厅调研时，向全体干部推荐《大数据》一书，并在讲话中说：「我希望大家能认真读一读这本书，带着问题读，带着想法读。」
 《数据之巅》以美国历史历史为纵线，包括美国第一个百年的三个时代：初数时代、内战时代、镀金时代，以及 20 世纪后数据成熟期的量化时代、抽样时代、开放时代、大数据时代。记述美国建国初期民主分权到两党之争过程中对数据的态度和应用，通过人口普查平息难忘战争和解放黑奴等历史…
@@ -212,10 +212,10 @@ B、主题阅读：阅读所有第一阶段收集到的书籍
     
     <item>
       <title>读书笔记 | 网站分析师实战指南</title>
-      <link>https://salmon4g.github.io/posts/reading/web-analytics-action-hero-notes/</link>
+      <link>https://salmon3g.github.io/posts/reading/web-analytics-action-hero-notes/</link>
       <pubDate>Sat, 12 Oct 2013 11:59:00 +0000</pubDate>
       
-      <guid>https://salmon4g.github.io/posts/reading/web-analytics-action-hero-notes/</guid>
+      <guid>https://salmon3g.github.io/posts/reading/web-analytics-action-hero-notes/</guid>
       <description>楠楠翻译的《网站分析师实战指南》上市了，这本书和《流量的秘密》、《网站分析实战》有些不同，《网站分析师实战指南》并没有太多的工具方面的使用教程，而是围绕如何成为网站分析实战大师展开。
 书中详细介绍了网站分析实战大师的成长之路中会遇到的各种问题，比如将更多的精力放到分析上，而不是充当报告机器人的角色、网站分析实战大师应具备的素质、如果处理好公司中各个部门的关系、分析团队的组建以及高效的进入实战分析中等。
 贴身体会的是网站分析能否发挥出最佳效果绝不是负责网站分析相关人员所能决定的，要各个部门的协助配合，所以公司高层对网站分析人员的支持是更好实现网站分析价值的源动力。
