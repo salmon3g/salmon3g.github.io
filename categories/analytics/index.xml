@@ -44,10 +44,10 @@ Y = 28.493 + 130.835X附：在 R 语言中，与线性模型有关的函数有 
     
     <item>
       <title>4行Python下载经济学人图表</title>
-      <link>https://salmon3g.github.io/posts/analytics/download/</link>
+      <link>https://salmon3g.github.io/posts/analytics/python-download/</link>
       <pubDate>Mon, 14 Oct 2013 10:59:00 +0000</pubDate>
       
-      <guid>https://salmon3g.github.io/posts/analytics/download/</guid>
+      <guid>https://salmon3g.github.io/posts/analytics/python-download/</guid>
       <description>经常做图表的同学应该知道经济学人，经济学人的图表简洁、专业值得学习。经济学人的图表是每周一期，大概有五十多期，可以借助 Python 下载。
 思路：
 以一期为基础，将其 URL 按照日期形式 +/-7 拉出所有的 URL 并保存到 txt 中 用 Python 读取 txt 中的 URL 地址并下载 Python 代码如下：
@@ -242,10 +242,10 @@ CPTM (Cost per Targeted Thousand Impressions) 经过定位的用户（如根据�
     
     <item>
       <title>Google Analytics 代码部署</title>
-      <link>https://salmon3g.github.io/posts/analytics/ga/</link>
+      <link>https://salmon3g.github.io/posts/analytics/ga-js/</link>
       <pubDate>Tue, 01 Mar 2011 07:59:00 +0000</pubDate>
       
-      <guid>https://salmon3g.github.io/posts/analytics/ga/</guid>
+      <guid>https://salmon3g.github.io/posts/analytics/ga-js/</guid>
       <description>Google Analytics 早在 2009 年就推出异步加载的方式了，不但保证了网页能更快的加载跟踪代码，对网站打开速度也不会产生影响了，下面是常见的部署 GATC（Google Analytics 监测代码）方式，可根据实际情况进行部署。
 方式一： 将 GATC 放到网站所有要监测的网页的 标签前。
 &amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;var _gaq = _gaq || [];_gaq.push([&#39;_setAccount&#39;, &#39;UA-XXXXX-X&#39;]);_gaq.push([&#39;_trackPageview&#39;]);(function() {var ga = document.createElement(&#39;script&#39;); ga.type = &#39;text/javascript&#39;; ga.async = true;ga.src = (&#39;https:&#39; == document.location.protocol ? &#39;https://ssl&#39; : &#39;http://www&#39;) + &#39;.google-analytics.com/ga.js&#39;;var s = document.getElementsByTagName(&#39;script&#39;)[0]; s.parentNode.insertBefore(ga, s);})();&amp;lt;/script&amp;gt;方式二： 将 ga.js 放到底部。

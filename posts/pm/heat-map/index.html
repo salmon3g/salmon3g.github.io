@@ -5,13 +5,10 @@
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
 <title>数据可视化之热力图 | 往东行</title>
-<meta name="description" content="热力图也是一种数据可视化，通过热力图可以直观展现数据分布。热力图几年前在网页中应用比较多，现在随着大数据时代的到来，百度地图、高德地图也推出了人群分布热力图，直观反映区域地理位置的人群拥挤情况。
-网页中的热力图通常可以通过以下两方面来指导网页优化、广告位优化：
-页面哪部分更能吸引访问者 页面哪些非超链接被访问者误认为是超链接而点击 热力图原理 前端JS记录鼠标停留在页面的坐标的数据，并将数据以日志形式存储到服务器中，程序拿到这些数据并进行图形渲染，最后通过设置阀值在页面呈现热力图效果。
-参考资源 heatmap.js How to make heat maps 高德地图API 百度统计 百度地图热力图 heatmap.js 一个用canvas画热力图的利器 浅谈Heatmap ">
+<meta name="description" content="热力图也是一种数据可视化，通过热力图可以直观展现数据分布。热力图几年前在网页中应用比较多，现在随着大数据时代的到来，百度地图、高德地图也推出了人群分布热力图，直观反映区域地理位置的人群拥挤情况。">
 <meta name="author" content="wangdongxing">
 <link rel="canonical" href="https://salmon3g.github.io/posts/pm/heat-map/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.576d70e836ba652a8bff5b3465e3bf1ec1f0a0ce151563ac639df11337cc801e.css" integrity="sha256-V21w6Da6ZSqL/1s0ZeO/HsHwoM4VFWOsY53xEzfMgB4=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.c1539bad5217de95d4fecea4e8c4851be25b3c5402cd4b78472410704f65bb96.css" integrity="sha256-wVObrVIX3pXU/s6k6MSFG&#43;JbPFQCzUt4RyQQcE9lu5Y=" rel="preload stylesheet" as="style">
 <script defer crossorigin="anonymous" src="https://cdn.staticfile.org/highlight.js/10.2.1/highlight.min.js"></script>
 <link rel="icon" href="https://salmon3g.github.io/img/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://salmon3g.github.io/favicon-16x16.png">
@@ -63,20 +60,14 @@ MathJax.Hub.Queue(function() {
 </script>
 <style>code.has-jax {font: inherit;font-size: 100%;background: inherit;border: inherit;color: #515151;}</style>
 <meta property="og:title" content="数据可视化之热力图" />
-<meta property="og:description" content="热力图也是一种数据可视化，通过热力图可以直观展现数据分布。热力图几年前在网页中应用比较多，现在随着大数据时代的到来，百度地图、高德地图也推出了人群分布热力图，直观反映区域地理位置的人群拥挤情况。
-网页中的热力图通常可以通过以下两方面来指导网页优化、广告位优化：
-页面哪部分更能吸引访问者 页面哪些非超链接被访问者误认为是超链接而点击 热力图原理 前端JS记录鼠标停留在页面的坐标的数据，并将数据以日志形式存储到服务器中，程序拿到这些数据并进行图形渲染，最后通过设置阀值在页面呈现热力图效果。
-参考资源 heatmap.js How to make heat maps 高德地图API 百度统计 百度地图热力图 heatmap.js 一个用canvas画热力图的利器 浅谈Heatmap " />
+<meta property="og:description" content="热力图也是一种数据可视化，通过热力图可以直观展现数据分布。热力图几年前在网页中应用比较多，现在随着大数据时代的到来，百度地图、高德地图也推出了人群分布热力图，直观反映区域地理位置的人群拥挤情况。" />
 <meta property="og:type" content="article" />
 <meta property="og:url" content="https://salmon3g.github.io/posts/pm/heat-map/" /><meta property="article:section" content="posts" />
 <meta property="article:published_time" content="2015-08-15T12:28:00+00:00" />
 <meta property="article:modified_time" content="2015-08-15T12:28:00+00:00" />
 <meta name="twitter:card" content="summary"/>
 <meta name="twitter:title" content="数据可视化之热力图"/>
-<meta name="twitter:description" content="热力图也是一种数据可视化，通过热力图可以直观展现数据分布。热力图几年前在网页中应用比较多，现在随着大数据时代的到来，百度地图、高德地图也推出了人群分布热力图，直观反映区域地理位置的人群拥挤情况。
-网页中的热力图通常可以通过以下两方面来指导网页优化、广告位优化：
-页面哪部分更能吸引访问者 页面哪些非超链接被访问者误认为是超链接而点击 热力图原理 前端JS记录鼠标停留在页面的坐标的数据，并将数据以日志形式存储到服务器中，程序拿到这些数据并进行图形渲染，最后通过设置阀值在页面呈现热力图效果。
-参考资源 heatmap.js How to make heat maps 高德地图API 百度统计 百度地图热力图 heatmap.js 一个用canvas画热力图的利器 浅谈Heatmap "/>
+<meta name="twitter:description" content="热力图也是一种数据可视化，通过热力图可以直观展现数据分布。热力图几年前在网页中应用比较多，现在随着大数据时代的到来，百度地图、高德地图也推出了人群分布热力图，直观反映区域地理位置的人群拥挤情况。"/>
 
 
 <script type="application/ld+json">
@@ -111,7 +102,7 @@ MathJax.Hub.Queue(function() {
   "@type": "BlogPosting",
   "headline": "数据可视化之热力图",
   "name": "数据可视化之热力图",
-  "description": "热力图也是一种数据可视化，通过热力图可以直观展现数据分布。热力图几年前在网页中应用比较多，现在随着大数据时代的到来，百度地图、高德地图也推出了人群分布热力图，直观反映区域地理位置的人群拥挤情况。\n网页中的热力图通常可以通过以下两方面来指导网页优化、广告位优化：\n页面哪部分更能吸引访问者 页面哪些非超链接被访问者误认为是超链接而点击 热力图原理 前端JS记录鼠标停留在页面的坐标的数据，并将数据以日志形式存储到服务器中，程序拿到这些数据并进行图形渲染，最后通过设置阀值在页面呈现热力图效果。\n参考资源 heatmap.js How to make heat maps 高德地图API 百度统计 百度地图热力图 heatmap.js 一个用canvas画热力图的利器 浅谈Heatmap ",
+  "description": "热力图也是一种数据可视化，通过热力图可以直观展现数据分布。热力图几年前在网页中应用比较多，现在随着大数据时代的到来，百度地图、高德地图也推出了人群分布热力图，直观反映区域地理位置的人群拥挤情况。",
   "keywords": [
     "数据可视化"
   ],
@@ -228,7 +219,7 @@ MathJax.Hub.Queue(function() {
     <h1 class="post-title">
       数据可视化之热力图
     </h1>
-    <div class="post-meta"><span class="more-meta">  </span><span title='2015-08-15 12:28:00 +0000 UTC'>2015-08-15</span>&nbsp;·&nbsp;1 min&nbsp;|&nbsp;<a href="https://github.com/%3cpath_to_repo%3e/content/posts/PM/%e6%95%b0%e6%8d%ae%e5%8f%af%e8%a7%86%e5%8c%96%e4%b9%8b%e7%83%ad%e5%8a%9b%e5%9b%be.md" rel="noopener noreferrer" target="_blank">Edit</a>
+    <div class="post-meta"><span class="more-meta">  </span><span title='2015-08-15 12:28:00 +0000 UTC'>2015-08-15</span>&nbsp;·&nbsp;1 min&nbsp;|&nbsp;<a href="https://github.com/%3cpath_to_repo%3e/content/posts/PM/2015%e6%95%b0%e6%8d%ae%e5%8f%af%e8%a7%86%e5%8c%96%e4%b9%8b%e7%83%ad%e5%8a%9b%e5%9b%be.md" rel="noopener noreferrer" target="_blank">Edit</a>
 
 </div>
   </header> <aside id="toc-container" class="toc-container wide">
@@ -342,7 +333,7 @@ MathJax.Hub.Queue(function() {
     <br>
     <span>很贵的数据监测产品： Omniture</span>
   </a>
-  <a class="next" href="https://salmon3g.github.io/posts/pm/ga-1/">
+  <a class="next" href="https://salmon3g.github.io/posts/pm/ga/">
     <span class="title">Next »</span>
     <br>
     <span>优秀的数据监测产品：Google Analytics</span>
