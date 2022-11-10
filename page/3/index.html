@@ -9,7 +9,7 @@
 <meta name="description" content="西方有真经，我往东行">
 <meta name="author" content="wangdongxing">
 <link rel="canonical" href="https://salmon3g.github.io/">
-<link crossorigin="anonymous" href="/assets/css/stylesheet.a14448c07cddf5a1fec9468e66fa046c84c03fb15b3b7b26e79bd43b6361e01a.css" integrity="sha256-oURIwHzd9aH&#43;yUaOZvoEbITAP7FbO3sm55vUO2Nh4Bo=" rel="preload stylesheet" as="style">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.27d9852d5d61724f9d77a4c8b6b46f68bd5628c47b8f4c1f70617a6d27b44478.css" integrity="sha256-J9mFLV1hck&#43;dd6TItrRvaL1WKMR7j0wfcGF6bSe0RHg=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://salmon3g.github.io/img/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://salmon3g.github.io/favicon-16x16.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://salmon3g.github.io/favicon-32x32.png">
@@ -146,6 +146,29 @@
     </nav>
 </header>
 <main class="main"> 
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>Mac下安装和使用GitBook
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>GitBook 是一款基于 Node.js 的命令行工具，配合 Markdown 写文档简直是一大「神器」。很多互联网产品的帮助文档都在使用 GitBook 编写，也有好多人用它来写电子书。
+Mac下安装 GitBook 1、安装 Node.js
+打开 Node.js 官网(www.nodejs.org)下载并安装 Node.js。安装完在终端检验：
+node -v v5.7.1 有版本提示，说明 Node.js 安装成功了。
+2、安装 GitBook
+npm install -g gitbook-cli 检验：
+gitbook -V v2.1.2 有版本提示，说明 GitBook 安装成功了。
+Mac 下使用 GitBook 写文档 打开终端，切换到预放置文档目录，使用 mkdir 命令创建文件夹，使用 init 初始化
+mkdir Help cd Help gitbook init 初始化后的 Help 目录中会生成 README.md(简介)和SUMMARY.md(导航目录)两个文件。README.md 主要是文档的简单介绍，SUMMARY.md 是文档的导航和目录，每新增一个文件就要向此文件中添加一条记录，格式如下：
+Summary [简介](README.md) [H5 活动监测](H5.md) [使用指南](H5_1.md) [分页监测](H5_2.md) 文档写好后，可以使用 build 命令将 .md 文件 生成 html 文件
+gitbook build 生成完毕后，Help 目录中出现一个名为 「_book」的文件夹。进入该文件夹，可以直接用浏览器打开 index.html 进行预览，或使用 serve 命令：
+gitbook serve 然后在浏览器中输入 http://localhost:4000 预览，按 Ctrl &#43; C 结束。 是不是很方便 :) 更多问题请参考 GitBook 帮助文档 。</p>
+  </div>
+  <footer class="entry-footer"><span class="more-meta">  </span><span title='2016-06-11 12:28:00 +0000 UTC'>2016-06-11</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Mac下安装和使用GitBook" href="https://salmon3g.github.io/posts/life/mac-gitbook/"></a>
+</article>
 
 <article class="post-entry"> 
   <header class="entry-header">
@@ -300,25 +323,6 @@ OM 的实时报表数据延迟不超过两分钟，每分钟自动更新。同�
   </div>
   <footer class="entry-footer"><span class="more-meta">  </span><span title='2015-08-15 12:28:00 +0000 UTC'>2015-08-15</span>&nbsp;·&nbsp;1 min</footer>
   <a class="entry-link" aria-label="post link to 数据可视化之热力图" href="https://salmon3g.github.io/posts/pm/heat-map/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2>优秀的数据监测产品：Google Analytics
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>数据监测产品有很多，我使用过的，就有十几款，价格也是从免费到十几万人民币，到大几十万人民币，以及百万人民币不等。作为「介绍数据监测产品系列」第一篇，就一定要介绍一款优秀的产品 —— Google Analytics.
-Google Analytics 是一款网站数据监测系统(产品)，也就是我们常说的 Google Analytics. Google Analytics 前身是 Urchin，于 2005 年 3 月时被 Google 收购；同年 11 月，Google 在 Urchin 基础上开发了 Google Analytics.
-（图：Urchin 产品界面）
-题外话：Google Analytics 的渠道追踪参数 UTM 便是从 Urchin 继承过来，是 Urchin Traffic Monitor 的缩写。国内有些数据分析产品的渠道追踪参数也使用了 UTM，原因猜测有二：
-1、用 Google Analytics 的网站太多了，便于替换； 2、直接 Copy, 并不知道 UTM 是什么的意思 :)
-2011 年 3 月 Google Analytics 升级为 v5 版，2012 年 10 月 Google Analytics 最后一个版本被命名为 Universal Analytics。与 Google Analytics 最大的不同是 Universal Analytics 推出了 UserID，通过 UserID 进行跨终端追踪，和自定义维度和指标。Google 官方已经宣布不继续对旧版 Google Analytics 升级和维护，绝大多数使用 Google Analytics 的网站也已经升级为了 Universal Analytics, 所以下文提到的 Google Analytics 均为 Universal Analytics 版本。
-Google Analytics 有两个版本：免费版和付费版(Premium)。付费版 15w 美元/年，除了数据不抽样外，付费版可以使用 BigQuery、DoubleClick Campaign Manager 和 DoubleClick Bid Manager。BigQuery 是 Google 云端的数据仓库，直接写 SQL 即可快速查询数据。据说，查询几十 G 的数据仅需几秒钟。目前国内使用 Google Analytics 的企业有很多，大型网站如：京东、豆瓣、知乎、蘑菇街、丁香园，小型网站更是不计其数。
-绝大多数朋友在谈论 Google Analytics 时都是谈论的免费版本，比如「Google Analytics 和百度统计哪个好？」、「Google Analytics 如何设置跨域监测？」等，所以以下内容侧重免费版 Google Analytics(付费版包括免费版全部优点)....</p>
-  </div>
-  <footer class="entry-footer"><span class="more-meta">  </span><span title='2015-05-09 12:10:00 +0000 UTC'>2015-05-09</span>&nbsp;·&nbsp;2 min</footer>
-  <a class="entry-link" aria-label="post link to 优秀的数据监测产品：Google Analytics" href="https://salmon3g.github.io/posts/pm/ga-1/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
