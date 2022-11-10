@@ -1,5 +1,6 @@
 ---
 title: "Mac下安装和使用GitBook"
+description: GitBook 是一款基于 Node.js 的命令行工具，配合 Markdown 写文档简直是一大「神器」。很多互联网产品的帮助文档都在使用 GitBook 编写，也有好多人用它来写电子书。
 categories: ["life"]
 tags: []
 draft: false

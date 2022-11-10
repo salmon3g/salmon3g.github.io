@@ -3,7 +3,7 @@ title: "4行Python下载经济学人图表"
 categories: ["analytics"]
 tags: []
 draft: false
-slug: "download"
+slug: "python-download"
 date: "2013-10-14 10:59:00"
 ---
 

@@ -3,7 +3,7 @@ title: "Google Analytics 代码部署"
 categories: ["analytics"]
 tags: []
 draft: false
-slug: "GA"
+slug: "GA-js"
 date: "2011-03-01 07:59:00"
 ---
 

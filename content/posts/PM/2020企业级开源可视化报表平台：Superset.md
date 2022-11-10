@@ -1,5 +1,6 @@
 ---
 title: "企业级开源可视化报表平台：Superset"
+description: 一款由 Python 语言为主开发的企业级数据探索分析以及可视化的报表平台：Superset。由 Airbnb 开源，后面进入 Apache 软件基金会孵化。
 categories: [PM]
 tags: ["BI","数据产品"]
 draft: false

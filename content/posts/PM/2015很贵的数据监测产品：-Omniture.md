@@ -1,5 +1,6 @@
 ---
 title: "很贵的数据监测产品： Omniture"
+description: Omniture SiteCatalyst，是美国优秀的网站分析系统。进入中国市场后，大家习惯称之为「Omniture」。2004 年 10 月，Omniture 被 Jupiter Research 评为「网站分析市场的绝对领导者」。2009 年 9 月，Adobe 公司宣布收购 Omniture，并将其命名为「Adobe Analytics」。
 categories: [PM]
 tags: ["BI","数据产品"]
 draft: false

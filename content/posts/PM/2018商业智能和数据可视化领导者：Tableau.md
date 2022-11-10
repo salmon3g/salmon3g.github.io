@@ -1,5 +1,6 @@
 ---
 title: "商业智能和数据可视化领导者：Tableau"
+description: 商业智能和数据可视化领导者：Tableau 的介绍。
 categories: [PM]
 tags: ["BI","数据可视化"]
 draft: false

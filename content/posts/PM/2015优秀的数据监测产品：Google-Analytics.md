@@ -1,9 +1,10 @@
 ---
 title: "优秀的数据监测产品：Google Analytics"
+description: Google Analytics 是一款网站数据监测系统(产品)，也就是我们常说的 Google Analytics. Google Analytics 前身是 Urchin，于 2005 年 3 月时被 Google 收购；同年 11 月，Google 在 Urchin 基础上开发了 Google Analytics.
 categories: [PM]
 tags: []
 draft: false
-slug: "GA-1"
+slug: "GA"
 date: "2015-05-09 12:10:00"
 ---
 

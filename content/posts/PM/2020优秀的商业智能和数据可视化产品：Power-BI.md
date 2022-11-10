@@ -1,5 +1,6 @@
 ---
 title: "优秀的商业智能和数据可视化产品：Power BI"
+description: 关于 Microsoft 出品的一套商业智能和数据可视化产品：Power BI。
 categories: [PM]
 tags: ["BI","数据可视化"]
 draft: false
