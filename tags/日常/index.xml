@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>posts on 往东行</title>
-    <link>https://salmon3g.github.io/posts/</link>
-    <description>Recent content in posts on 往东行</description>
+    <title>日常 on 往东行</title>
+    <link>https://salmon3g.github.io/tags/%E6%97%A5%E5%B8%B8/</link>
+    <description>Recent content in 日常 on 往东行</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Sun, 14 Aug 2022 16:40:42 +0800</lastBuildDate><atom:link href="https://salmon3g.github.io/posts/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 14 Aug 2022 16:40:42 +0800</lastBuildDate><atom:link href="https://salmon3g.github.io/tags/%E6%97%A5%E5%B8%B8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>碳酸危机</title>
       <link>https://salmon3g.github.io/posts/test/</link>
