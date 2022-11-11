@@ -7,10 +7,10 @@ on:
 
 jobs:
   build:
-    runs-on: ubuntu-latest
+    runs-on: ubuntu-18.04
     steps:
       - name: Checkout
-        uses: actions/checkout@master
+        uses: actions/checkout@v2
         with:
           fetch-depth: 0
       - name: Disable quotePath
@@ -18,11 +18,11 @@ jobs:
       - name: setup hugo
         uses: peaceiris/actions-hugo@v2
         with:
-            hugo-version: 'latest'
+            hugo-version: '0.104.3'
       - name: build hugo
         run: hugo
       - name: deploy hugo
-        uses: peaceiris/actions-gh-pages@v2
+        uses: peaceiris/actions-gh-pages@v3
         env:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
           PUBLISH_BRANCH: main
