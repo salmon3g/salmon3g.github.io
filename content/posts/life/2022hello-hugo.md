@@ -90,7 +90,7 @@ git push -u origin blog
 
 ## 自动化发布
 
-为了这个自动化的过程，你需要将网站的源码和 public 下面的内容放在 xxx.github.io 仓库的不同分支，不过要保证主分支必须放的是 public 里面的内容。我这里的分支对应关系是 master 分支存放 public，blog 分支存放源码，其中 master 为主分支。
+为了这个自动化的过程，你需要将网站的源码和 public 下面的内容放在 xxx.github.io 仓库的不同分支，不过要保证主分支必须放的是 public 里面的内容。我这里的分支对应关系是 main 分支存放 public，blog 分支存放源码，其中 main 为主分支。
 
 这个自动化的过程需要结合 github action 来完成。
 
@@ -130,7 +130,7 @@ jobs:
         uses: peaceiris/actions-gh-pages@v2
         env:
           ACTIONS_DEPLOY_KEY: ${{ secrets.ACTIONS_DEPLOY_KEY }}
-          PUBLISH_BRANCH: master
+          PUBLISH_BRANCH: main
           PUBLISH_DIR: ./public
 ```
 
@@ -143,4 +143,4 @@ jobs:
 3. `PUBLISH_BRANCH` 对应于你的主分支
 4. `PUBLISH_DIR` 对应于执行 hugo 命令后生成文件的位置，一般默认就是 `./public`
 
-做完这些之后再将内容推送到 blog 分支的时候，action 就会自动执行构建过程，然后将构建好的博客内容推送到 master 分支.
+做完这些之后再将内容推送到 blog 分支的时候，action 就会自动执行构建过程，然后将构建好的博客内容推送到 main 分支.
