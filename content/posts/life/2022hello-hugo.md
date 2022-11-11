@@ -100,6 +100,10 @@ git push -u origin blog
 2. 在 `Settings->Secrets` 下添加一个新的 Secrets，这里填写你的 ssh 密钥，名字为了与之后的脚本对应就设置为 `ACTIONS_DEPLOY_KEY`。
 3. 在源码对应的分支下根目录下创建一个 `.github` 的目录，在 `.github` 下创建一个叫做 `workflows` 的目录，`workflows` 目录下创建一个 `public.yml` 的文件。简单来说就是 github action 会从分支根目录下寻找 .github/workflows 目录，这个目录下存放的就是你的一些 action，如果你有多个任务可以创建多个 action，不过这里就不多说了。
 
+ssh 秘钥获取方式：
+
+首先点击 github 头像在下拉栏里进入 Setting-Developer Settings-Personal access tokens，选择 Generate new token。在上方填入名字，并勾选 repo 和 admin:repo_hook 里的所有选项，点击 Generate token 生成token，并先复制保存该token。
+
 public.yml 文件的内容如下
 
 ```
