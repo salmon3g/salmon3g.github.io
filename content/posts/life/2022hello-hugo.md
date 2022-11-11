@@ -102,7 +102,7 @@ git push -u origin blog
 
 ssh 秘钥获取方式：
 
-首先点击 github 头像在下拉栏里进入 Setting-Developer Settings-Personal access tokens，选择 Generate new token。在上方填入名字，并勾选 repo 和 admin:repo_hook 里的所有选项，点击 Generate token 生成token，并先复制保存该token。
+首先点击 github 头像在下拉栏里进入 Setting-Developer Settings - Personal access tokens，选择 Generate new token。在上方填入名字，并勾选 repo 和 admin:repo_hook 里的所有选项，点击 Generate token 生成token，并先复制保存该token。
 
 public.yml 文件的内容如下
 
