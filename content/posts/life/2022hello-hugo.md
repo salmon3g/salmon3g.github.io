@@ -5,6 +5,7 @@ categories: [life]
 tags: [hugo]
 slug: bye-typecho-hello-hugo
 date: "2022-11-11 22:31:05"
+draft: false
 ---
 
 
