@@ -1,0 +1,357 @@
+<!DOCTYPE html>
+<html lang="en" dir="auto">
+<head><meta charset="utf-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+<meta name="robots" content="index, follow">
+<title>分析 | 往东行</title>
+<meta name="description" content="数据分析，产品分析，运营分析等">
+<meta name="author" content="wangdongxing">
+<link rel="canonical" href="https://salmon3g.github.io/posts/analytics/">
+<link crossorigin="anonymous" href="/assets/css/stylesheet.c1539bad5217de95d4fecea4e8c4851be25b3c5402cd4b78472410704f65bb96.css" integrity="sha256-wVObrVIX3pXU/s6k6MSFG&#43;JbPFQCzUt4RyQQcE9lu5Y=" rel="preload stylesheet" as="style">
+<link rel="icon" href="https://salmon3g.github.io/img/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="https://salmon3g.github.io/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://salmon3g.github.io/favicon-32x32.png">
+<link rel="apple-touch-icon" href="https://salmon3g.github.io/apple-touch-icon.png">
+<link rel="mask-icon" href="https://salmon3g.github.io/apple-touch-icon.png">
+<meta name="theme-color" content="#2e2e33">
+<meta name="msapplication-TileColor" content="#2e2e33">
+<link rel="alternate" type="application/rss+xml" href="https://salmon3g.github.io/posts/analytics/index.xml">
+<noscript>
+  <style>#theme-toggle,.top-link{display:none;}</style>
+  <style>
+      @media (prefers-color-scheme: dark){
+        :root {
+          --theme: rgb(29, 30, 32);
+          --entry: rgb(46, 46, 51);
+          --primary: rgb(218, 218, 219);
+          --secondary: rgb(155, 156, 157);
+          --tertiary: rgb(65, 66, 68);
+          --content: rgb(196, 196, 197);
+          --hljs-bg: rgb(46, 46, 51);
+          --code-bg: rgb(55, 56, 62);
+          --border: rgb(51, 51, 51);
+        }
+        .list {background: var(--theme);}
+        .list:not(.dark)::-webkit-scrollbar-track {background: 0 0;}
+        .list:not(.dark)::-webkit-scrollbar-thumb { border-color: var(--theme);}
+      }
+  </style>
+</noscript>
+<meta property="og:title" content="分析" />
+<meta property="og:description" content="数据分析，产品分析，运营分析等" />
+<meta property="og:type" content="website" />
+<meta property="og:url" content="https://salmon3g.github.io/posts/analytics/" />
+<meta name="twitter:card" content="summary"/>
+<meta name="twitter:title" content="分析"/>
+<meta name="twitter:description" content="数据分析，产品分析，运营分析等"/>
+
+
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [, 
+    {
+      "@type": "ListItem",
+      "position":  2 ,
+      "name": "posts",
+      "item": "https://salmon3g.github.io/posts/"
+    }, 
+    {
+      "@type": "ListItem",
+      "position":  3 ,
+      "name": "分析",
+      "item": "https://salmon3g.github.io/posts/analytics/"
+    }
+  ]
+}
+</script>
+</head>
+<body class="list" id="top">
+<script>
+    if (localStorage.getItem("pref-theme") === "dark") {
+        document.body.classList.add('dark');
+    } else if (localStorage.getItem("pref-theme") === "light") {
+        document.body.classList.remove('dark')
+    } else if (window.matchMedia('(prefers-color-scheme: dark)').matches) {
+        document.body.classList.add('dark');
+    }
+
+</script>
+
+<header class="header">
+    <nav class="nav">
+        <div class="logo">
+            <a href="https://salmon3g.github.io" accesskey="h" title="往东行 (Alt + H)">往东行</a>
+            <div class="logo-switches">
+                <button id="theme-toggle" accesskey="t" title="(Alt + T)">
+                    <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <path d="M21 12.79A9 9 0 1 1 11.21 3 7 7 0 0 0 21 12.79z"></path>
+                    </svg>
+                    <svg id="sun" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
+                        fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"
+                        stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="5"></circle>
+                        <line x1="12" y1="1" x2="12" y2="3"></line>
+                        <line x1="12" y1="21" x2="12" y2="23"></line>
+                        <line x1="4.22" y1="4.22" x2="5.64" y2="5.64"></line>
+                        <line x1="18.36" y1="18.36" x2="19.78" y2="19.78"></line>
+                        <line x1="1" y1="12" x2="3" y2="12"></line>
+                        <line x1="21" y1="12" x2="23" y2="12"></line>
+                        <line x1="4.22" y1="19.78" x2="5.64" y2="18.36"></line>
+                        <line x1="18.36" y1="5.64" x2="19.78" y2="4.22"></line>
+                    </svg>
+                </button>
+            </div>
+        </div>
+        <ul id="menu">
+            <li>
+                <a href="https://salmon3g.github.io/categories/pm/" title="产品">
+                    <span>产品</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://salmon3g.github.io/categories/reading/" title="阅读">
+                    <span>阅读</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://salmon3g.github.io/categories/analytics/" title="分析">
+                    <span>分析</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://salmon3g.github.io/categories/life/" title="生活">
+                    <span>生活</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://salmon3g.github.io/archives/" title="归类">
+                    <span>归类</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://salmon3g.github.io/tags/" title="标签">
+                    <span>标签</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://salmon3g.github.io/search/" title="搜索">
+                    <span>搜索</span>
+                </a>
+            </li>
+            <li>
+                <a href="https://salmon3g.github.io/about/" title="关于">
+                    <span>关于</span>
+                </a>
+            </li>
+        </ul>
+    </nav>
+</header>
+<main class="main"> 
+<header class="page-header">
+  <h1>
+    分析
+  </h1>
+  <div class="post-description">
+    数据分析，产品分析，运营分析等
+  </div>
+</header>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>数据分析师的技能树
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>如今流量获取成本不断提高，越来越多的企业从粗放的运营模式转变为精细化运营，企业对员工素质的要求也越来越高。设计师能做数据分析，产品经理能做数据分析，运营也能做数据分析，甚至 CEO 也自己做起了数据分析。
+数据分析师想要提高自己的价值，就需要不断提高自己的「技能树」。 注：本文所述的数据分析指的是网站数据分析
+0、准备阶段 数据分析离不开使用 Excel，熟练掌握 Excel 常用操作是必须的。
+图表类型的选择与设置 常用函数(sum、vlookup、average、max 等) 常用公式(统计类、计算类、判断类、查找类) 数据透视表 常用 SQL 做网站数据分析，肯定要掌握网站的基础知识。
+网站的运行原理 服务器、网站、页面(Page)、URL 之间的关系 静态网站和动态网站的区别 网站 Cookie、Session 基本的 Html&#43;JavaScript 知识 有自己的测试网站(Blog 就行) 1、起步阶段 先从免费的学起，Google Analytics 是一定要掌握的(关于原因本公众号之前专门写过，有兴趣的可以翻看下历史)。
+数据采集原理 指标计算逻辑(PV、UV、跳出率、退出率……) 网站添加监测方法 流量标记方法 流量来源分类(直接流量、自然流量、SEO、PPC、EDM……)及规则 页面、虚拟页面、自定义事件区别和设置 转化目标、漏斗设置 电商类网站监测设置 2、初级阶段 了解公司业务并开始使用分析工具并进行分析。
+扎实的业务知识 网站基础数据(PV、UV、停留时长、跳出率) 用户从哪里来，从哪里走 用户的浏览路径 网站目标达成次数及价值 多维度分析 自定义指标、维度、报表 3、中级阶段 熟练掌握一个或多个分析工具，并知晓各分析工具之间的异同，能快速定位两个工具在数据统计上的差别的原因。具备完善的分析思路，能独自撰写完整的数据分析报告，为运营提供数据支撑和指导。
+阶段性报告(日报、周报、月报……) 虚假流量排查 LandingPage 优化 站内搜索优化 网站导航优化 漏斗模型设定与分析 网站关键路径转化分析 网站用户忠诚度分析 用户综合价值评分体系搭建 电子商务网站的 RFM (最近一次消费(Recency)、消费频率(Frequency)、消费金额(Monetary))分析 交叉销售分析 A/B Testing 行业分析 竞争对手分析 4、高级阶段 不同企业应用场景不同，面临的问题也不同，更加考验数据分析师的大局观和应对能力。
+挖掘整个公司的数据需求 多套数据系统整合 更加复杂的应用场景监测方案 向整个公司推销数据价值 数据产品建设 推广数据驱动决策理念 最后，与君共勉：Data is wonderful.</p>
+  </div>
+  <footer class="entry-footer"><span class="more-meta">  </span><span title='2014-12-13 10:59:00 +0000 UTC'>2014-12-13</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to 数据分析师的技能树" href="https://salmon3g.github.io/posts/analytics/analyst-skill-tree/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>R语言一元线性回归模型
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>一元线性回归讨论的是一个因变量 Y 与有一个自变量 X 之间的关系，一元线性回归模型也叫一元线性方程。步骤如下：
+1、数据准备
+x&lt;-c(0.10,0.11,0.12,0.13,0.14,0.15,0.16,0.17,0.18,0.20,0.21,0.23)y&lt;-c(42.0,43.5,45.0,45.5,45.0,47.5,49.0,53.0,50.0,55.0,55.0,60.0)2、画图
+plot(y ~ 1&#43;x)从图看出，散点图基本在一条一条直线附近，可以认为 Y 与 X 的关系基本上是线性的。
+3、创建模型
+lm.sol&lt;-lm(y ~ 1&#43;x)4、查看结果
+summary(lm.sol)R 语言一元线性回归模型summary
+残差的最小值点、1/4 分为点、中位数点、3/4 分为点和最大值点分别为：-2.0431、-0.7056、0.1694、0.6633、2.2653；显著性标记为三颗星，极为显著。从计算结果可以看出回归模型通过了回归参数与回归方程的检验。
+5、回归模型
+Y = 28.493 &#43; 130.835X附：在 R 语言中，与线性模型有关的函数有 lm()、summary()、 anova()、predict() 等</p>
+  </div>
+  <footer class="entry-footer"><span class="more-meta">  </span><span title='2013-12-10 10:13:00 +0000 UTC'>2013-12-10</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to R语言一元线性回归模型" href="https://salmon3g.github.io/posts/analytics/simple-linear-regression/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>4行Python下载经济学人图表
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>经常做图表的同学应该知道经济学人，经济学人的图表简洁、专业值得学习。经济学人的图表是每周一期，大概有五十多期，可以借助 Python 下载。
+思路：
+以一期为基础，将其 URL 按照日期形式 &#43;/-7 拉出所有的 URL 并保存到 txt 中 用 Python 读取 txt 中的 URL 地址并下载 Python 代码如下：
+import urllib with open(&#39;d://url.txt&#39;, &#39;r&#39;) as f: for i,url in enumerate(f.readlines()): urllib.urlretrieve(url,&#39;d://pdf/%s.pdf&#39;%i) </p>
+  </div>
+  <footer class="entry-footer"><span class="more-meta">  </span><span title='2013-10-14 10:59:00 +0000 UTC'>2013-10-14</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to 4行Python下载经济学人图表" href="https://salmon3g.github.io/posts/analytics/python-download/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>级联战略/瀑布型战略
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>有些公司采用级联战略，即高级别的公司目标通过各个区域，部门和团队的每个单位自上而下的解读，并且分拆目标到各个独立的领域。原则上，这是级联战略基本的工作模式，但正如我们已经看到的空气三明治（空气三明治战略在顶层有着清晰的目标和未来的方向，在底层也辅有每日的行动，而中间去什么都没有——既没有肉一样的关键性决策来连接这两层，也没有丰富难爵的中间层填充物来调整公司内新的方向与新的行动）的中间部分通常被假设、暗示、不清晰或者缺失，特别是涉及在线业务部分时，级联战略有时感觉更像是一场企业混战，此外，除了目标和战略措施的脱节了外，你还可以发现其他关键要素的差距，如关键绩效指标（KPI）、目标、范围和优先级。
+级联战略方针的危险之一在于，当不同的团队在优化工作中太孤立时，会不知不觉违背或抵消其他团队的努力成果。由于每个独立团队（电子邮件，搜索引擎优化，付费搜索，内容团队），仅仅理解和执行整体在线战略的一部分，他们往往没有考虑到他们的努力对其他措施的影响，也没有将自己的成功与网站整体目标相结合。其结果就是，各种在线措施的整体效果远小于各部分效果的总和，而网站分析师在中间起到了举足轻重的作用，可以把各个部门的努力集中到统一的中心目标，并且帮忙优化整个在线渠道，而不仅仅是各个孤立的部分。
+无论你的公司是否已经实施了级联战略，在公司级别的总战略中将不同的业务目标、优先事项和措施于不同级别的战略映射起来是值得做的。级联战略框架将帮助你更好地了解在线评估效果。当你专注于更好地理解在线战略时，注意图中展示的五个关键层次，以及下面列表中的明细。
+公司目标
+公司的高管团队建立的公司及目标，这些目标可能不能直接适用于市场营销或在线活动（例如，在第三季结束前成功完成业务合并或将员工的保留率提高15%）。这些目标通常是用于内部发表会。作为分析师，当你试图确定第一级别目标和措施如何实现总体目标时，需要考虑到公司目标，当你深入分析中使，公司目标也提供了宏观视角。
+部门目标
+根据你的分析重点，部门目标可以分别针对职能部门（市场部），区域事业部（日本），或产品/客户部门（家用电脑）。这些目标仍然会涉及线下和线上的措施。在这个层面上，你可以确定部门的具体目标，而这些目标可以不必是公司的目标的一部分。在这个级别，有些目标可能难以弄清楚。在一个真实复杂的公司中，你甚至可能会遇到公司目标和在线业务目标多个级别之间各自不同的目标。在这种情况下，就需要你好好判断了。
+在线业务目标
+业务的在线部分本质上是网站分析师或在线营销人员的后院，因此熟悉在线业务目标是至关重要的。公司和部门目标往往比在线业务目标更好定义，因为在线措施可以由不同部门共享（电子商务，客户服务，各种营销部门），而没有唯一的使用者。你可能需要做一点侦探工作，以巩固和确认在线业务目标。管理者可能不同意在线战略或者存在冲突意见。你会发现有些目标只是用于在线领域，而与公司和部门的目标无关。
+在线措施
+每一个在线业务目标都将搭配一个或多个在线措施，大部分分析工作将集中于评估公司的在线活动，并确定改进的方法。这些措施将是传统措施（如电子邮件，付费搜索，搜索引擎优化），以及最新方式（社会化媒体，移动电话）的混合物。虽然在线业务目标基本上是固定的，但是提出新的在线措施仍然在分析师的控制范围内。
+在线战术
+执行在线措施所涉及的所有日常工作都属于这个范畴。每一个在线措施都包括多种战术，当你发现每一个在线业务目标可能有一个以上的措施时可以添加战术。战术更灵活且更容易发生变化，所有执行在线措施时可以采用不同的行为，并及时对行为进行调整。此外，公司内外不同的组织（代理机构，合作伙伴，承包商）将落实各种措施，而由分析产生优化机会是通过战术实现的。
+节选自：网站分析师实战指南</p>
+  </div>
+  <footer class="entry-footer"><span class="more-meta">  </span><span title='2013-09-20 10:08:00 +0000 UTC'>2013-09-20</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to 级联战略/瀑布型战略" href="https://salmon3g.github.io/posts/analytics/cascade-strategy/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>分析师的商业敏感度
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>一个网站分析师需要的不仅仅是分析能力，更重要的是对业务的理解。没有足够的商业敏感度，网站分析师的建议是没有可操作性的。分析师需要身处复杂和真实的商业环境中，这样说提供建议才会与业务相关，才具有实践意义。值得注意的是，分析师需要掌握以下业务相关的属性。
+全局视野 专注于每日日常分析的分析师会面临一个很大的危险，就是容易迷失在每日的细节数据中。实际上你需要同时关注细节和全局。成功的分析师会对业务的运营和盈利点就着敏锐的理解——无论是线上还是线下。通过对商业行为的透析，他们可以将战术级别的建议融入公司的战略目标中，主动优化相关的业务。他们的深刻见解和潜在可执行策略能够与高级主管（对公司的全局发展产生影响的关键人物）产生共鸣。
+以用户为中心 在用户联系和社交经济蓬勃发展的今天，维系用户的关系变得至关重要，因此需要将“以用户为中心”作为基本的做事准则。这个时候，就要求网站分析师能够站在用户的角度来思考。他们通过定量和定性的数据研究用户行为，转化以及用户需求，并以此提升业务的价值。他们能够区分用户的要求和真实的需求，从而让产品能够更加契合用户的内心。
+市场敏感度 大部分网站分析师都将工作重点放在优化市场营销上，而他们必须熟知营销概念，战略以及措施。那些拥有市场营销相关背景的分析师都有着出色的嗅觉，他们熟知公司业务的优势和劣势，在机会或者风险来临之前，就能敏锐的察觉到。他们研究竞争对手的情况，观察整个行业的走势。熟知市场营销的分析师不仅能够理解宏观的商业规律，同时也能够很好地把握用户需求。
+节选自：网站分析师实战指南</p>
+  </div>
+  <footer class="entry-footer"><span class="more-meta">  </span><span title='2013-09-18 09:59:00 +0000 UTC'>2013-09-18</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to 分析师的商业敏感度" href="https://salmon3g.github.io/posts/analytics/analyst-business-acumen/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2>辨别虚假流量
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>为网站导入更多流量，会和多种渠道合作，不排除有些渠道有作弊行为，为网站导入很多虚假流量。辨别虚假流量步骤大致如下：
+1、高级细分分隔流量。使用高级细分将这部分广告流量和其他流量进行分隔，在其他报告中可以选择该细分。
+2、流量产生时间。按小时或者天粒度查看网站访问流量分布。
+3、地理位置来源。
+4、网络属性（服务提供商）。
+5、跳出率。
+6、网站停留时间。
+7、进入路径&amp;点击分布图。
+8、目标转化率。
+9、单页面刷新分析。计算每个页面的 Pageviews/Unique Pageviews。
+10、访问者忠诚度分析。拉长时间周期看该部分广告流量的访问频率。
+11、访问者重合度分析。一段时间里排重后的访问者与排重前的访问者的比率。
+根据实际情况灵活运用，笔记来自《网站分析实战》。</p>
+  </div>
+  <footer class="entry-footer"><span class="more-meta">  </span><span title='2013-02-08 09:06:00 +0000 UTC'>2013-02-08</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to 辨别虚假流量" href="https://salmon3g.github.io/posts/analytics/identify-false-traffic/"></a>
+</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="https://salmon3g.github.io/posts/analytics/page/2/">Next&nbsp;&nbsp;»
+    </a>
+  </nav>
+</footer>
+    </main>
+    
+<footer class="footer"> 
+    <span>Copyright &copy; 2009 - 2022 <a href="https://salmon3g.github.io">往东行</a></span>
+    <span><a href="https://salmon3g.github.io/index.xml">Sitemap</a></span>
+</footer>
+<a href="#top" aria-label="go to top" title="Go to Top (Alt + G)" class="top-link" id="top-link" accesskey="g">
+    <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 12 6" fill="currentColor">
+        <path d="M12 6H0l6-6z" />
+    </svg>
+</a>
+
+<script>
+    let menu = document.getElementById('menu')
+    if (menu) {
+        menu.scrollLeft = localStorage.getItem("menu-scroll-position");
+        menu.onscroll = function () {
+            localStorage.setItem("menu-scroll-position", menu.scrollLeft);
+        }
+    }
+
+    document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+        anchor.addEventListener("click", function (e) {
+            e.preventDefault();
+            var id = this.getAttribute("href").substr(1);
+            if (!window.matchMedia('(prefers-reduced-motion: reduce)').matches) {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView({
+                    behavior: "smooth"
+                });
+            } else {
+                document.querySelector(`[id='${decodeURIComponent(id)}']`).scrollIntoView();
+            }
+            if (id === "top") {
+                history.replaceState(null, null, " ");
+            } else {
+                history.pushState(null, null, `#${id}`);
+            }
+        });
+    });
+
+</script>
+<script>
+    var mybutton = document.getElementById("top-link");
+    window.onscroll = function () {
+        if (document.body.scrollTop > 800 || document.documentElement.scrollTop > 800) {
+            mybutton.style.visibility = "visible";
+            mybutton.style.opacity = "1";
+        } else {
+            mybutton.style.visibility = "hidden";
+            mybutton.style.opacity = "0";
+        }
+    };
+
+</script>
+<script>
+    document.getElementById("theme-toggle").addEventListener("click", () => {
+        if (document.body.className.includes("dark")) {
+            document.body.classList.remove('dark');
+            localStorage.setItem("pref-theme", 'light');
+        } else {
+            document.body.classList.add('dark');
+            localStorage.setItem("pref-theme", 'dark');
+        }
+    })
+
+</script>
+</body>
+</html>
