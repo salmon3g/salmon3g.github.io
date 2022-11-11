@@ -63,7 +63,7 @@ date: "2022-11-11 22:31:05"
 hugo server
 ```
 
-然后访问 http://localhost:1313/ 便可以查看站点了
+然后访问 http://localhost:1313/ 便可以查看站点了。
 
 生成静态文件
 
