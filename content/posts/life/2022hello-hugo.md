@@ -87,3 +87,4 @@ git branch -M main
 git remote add origin git@github.com:xxx/xxx.github.io.git
 git push -u origin blog
 ```
+推送
