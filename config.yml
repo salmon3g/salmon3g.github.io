@@ -8,13 +8,16 @@ enableRobotsTXT: true # 允许爬虫抓取到搜索引擎，建议 true
 buildDrafts: false
 buildFuture: false
 buildExpired: false
-googleAnalytics:  # 谷歌统计
 paginate: 6    # 首页每页显示的文章数
 summaryLength: 120 # 文章概览的自字数，默认70
+# Site settings
+languageCode: "zh-cn"
+# 网站有 CJK 字符（中日韩统一表意文字），设置 hasCJKLanguage: true 
+hasCJKLanguage: true 
 
 minify:
   disableXML: true
-  # minifyOutput: true
+  minifyOutput: true
 
 permalinks: # 访问博客时网址的显示形式
   post: "/:title/"
@@ -64,30 +67,30 @@ outputs:
 # 这里的参数会被代码以 .Site.Params 的形式读取
 params:
   env: production # to enable google analytics, opengraph, twitter-cards and schema.
-  description: "西方有真经，我往东行"
+  description: "西有真经，我往东行。"
   author: wangdongxing
   defaultTheme: auto  # defaultTheme: light or  dark
   disableThemeToggle: false
   DateFormat: "2006-01-02"
   ShowShareButtons: true
-  ShowReadingTime: true
   disableSpecialistPost: false
   displayFullLangName: true
   ShowPostNavLinks: true
   ShowCodeCopyButtons: true
   hideFooter: false # 隐藏页脚
   ShowWordCounts: true
+  ShowReadingTime: false
   ShowLastMod: true #显示文章更新时间
   ShowAllPagesInArchive: true
   disableSpecial1stPost: false
   ShowToc: true # 显示目录
   TocOpen: true # 自动展开目录
   comments: false
-  autonumbering: true
+  autonumbering: true # 自动加编号
 
-  profileMode:
-      enabled: false
-      title: PaperMod
+  # profileMode:
+  #     enabled: false
+  #     title: PaperMod
       # imageUrl: "#"
       # imageTitle: my image
       # imageWidth: 120
@@ -104,8 +107,8 @@ params:
         <ul><li>Welcome to my blog ✨</li>
         <li>I will share my work 👨🏻‍💻 and life 🏖 notes here.</li>
         <li></li>
-        <li>博学慎思，明辨笃行。</li>
-        <li>数据行业从业 10 年，目前在鹅厂做数据产品经理。更多介绍见：<a href="/about">关于</a></li>
+        <li>西有真经，我往东行。</li>
+        <li>博学慎思，明辨笃行。更多介绍可见：<a href="/about/">关于</a></li>
         </ul>
  
   socialIcons:
@@ -117,28 +120,24 @@ params:
   label: # 左上角图标
     text: "往东行"
     # icon: "img/favicon.ico"
-    iconHeight: 35
-
-  analytics:
-    google:
-      SiteVerificationTag: ""
+    # iconHeight: 35
 
   assets:
     favicon: "img/favicon.ico"
-    favicon16x16: ""
-    favicon32x32: ""
-    apple_touch_icon: ""
-    safari_pinned_tab: "apple-touch-icon.png"
+    favicon16x16: "img/favicon-32x32.png"
+    favicon32x32: "img/favicon-32x32.png"
+    apple_touch_icon: "img/apple-touch-icon.png"
+    safari_pinned_tab: "img/apple-touch-icon.png"
 
   cover:
       hidden: true # hide everywhere but not in structured data
       hiddenInList: true # hide on list pages and home
       hiddenInSingle: true # hide on single page
 
-  editPost:
-      URL: "https://github.com/<path_to_repo>/content"
-      Text: "Edit" # edit text
-      appendFilePath: true # to append file path to Edit link
+  # editPost:
+  #     URL: "https://github.com/<path_to_repo>/content"
+  #     Text: "Edit" # edit text
+  #     appendFilePath: true # to append file path to Edit link
 
   fuseOpts: # 搜索配置
     isCaseSensitive: false
